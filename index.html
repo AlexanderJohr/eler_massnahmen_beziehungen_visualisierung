@@ -1,0 +1,32 @@
+<!doctype html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+
+  <script src="/bundle.js" defer></script>
+
+  <style>
+    form,
+    fieldset {
+      display: flex;
+    }
+  </style>
+
+</head>
+
+<body>
+  <form method="post">
+    <fieldset id="visualisationType">
+      <input type="radio" name="direction" value="forward" checked>Vorwärts<br>
+      <input type="radio" name="direction" value="backward">Rückwärts<br>
+      <input type="radio" name="direction" value="both">Beides<br>
+    </fieldset>
+    <fieldset>
+      <input type="checkbox"  id="animationType" checked>Animieren</label>
+    </fieldset>
+  </form>
+
+</body>
+
+</html>

@@ -1,1889 +1,1888 @@
-
 {
-    "name": "choices",
-    "children": [
-      {
-        "name": "FoerderklasseChoice",
-        "children": [
-          {
-            "name": "Ökolandbau",
-            "links": []
-          },
-          {
-            "name": "Ausgleichszulage",
-            "links": []
-          },
-          {
-            "name": "Erschwernisausgleich",
-            "links": []
-          },
-          {
-            "name": "Vertragsnaturschutz",
-            "links": []
-          },
-          {
-            "name": "Agrarumwelt- und Klimamaßnahmen AUKM",
-            "links": []
-          },
-          {
-            "name": "Tierschutz/Tierwohlmaßnahmen mit diesem als Hauptziel",
-            "links": []
-          },
-          {
-            "name": "bitte um Unterstützung",
-            "links": []
-          }
-        ]
-      },
-      {
-        "name": "KategorieChoice",
-        "children": [
-          {
-            "name": "Anbau Zwischenfrucht/Untersaat",
-            "links": [
-              {
-                "name": "choices.FoerderklasseChoice.Agrarumwelt- und Klimamaßnahmen AUKM",
-                "link": "enabling"
-              }
-            ]
-          },
-          {
-            "name": "Anlage/Pflege Struktur",
-            "links": [
-              {
-                "name": "choices.FoerderklasseChoice.Vertragsnaturschutz",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.FoerderklasseChoice.Agrarumwelt- und Klimamaßnahmen AUKM",
-                "link": "enabling"
-              }
-            ]
-          },
-          {
-            "name": "Düngemanagement",
-            "links": [
-              {
-                "name": "choices.FoerderklasseChoice.Vertragsnaturschutz",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.FoerderklasseChoice.Agrarumwelt- und Klimamaßnahmen AUKM",
-                "link": "enabling"
-              }
-            ]
-          },
-          {
-            "name": "Extensivierung",
-            "links": []
-          },
-          {
-            "name": "Flächenstilllegung/Brache",
-            "links": [
-              {
-                "name": "choices.FoerderklasseChoice.Vertragsnaturschutz",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.FoerderklasseChoice.Agrarumwelt- und Klimamaßnahmen AUKM",
-                "link": "enabling"
-              }
-            ]
-          },
-          {
-            "name": "Nutzungsumwandlung",
-            "links": [
-              {
-                "name": "choices.FoerderklasseChoice.Vertragsnaturschutz",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.FoerderklasseChoice.Agrarumwelt- und Klimamaßnahmen AUKM",
-                "link": "enabling"
-              }
-            ]
-          },
-          {
-            "name": "Förderung bestimmter Rassen / Sorten / Kulturen",
-            "links": [
-              {
-                "name": "choices.FoerderklasseChoice.Erschwernisausgleich",
-                "link": "disabling"
-              }
-            ]
-          },
-          {
-            "name": "bitte um Unterstützung",
-            "links": []
-          }
-        ]
-      },
-      {
-        "name": "ZielflaecheChoice",
-        "children": [
-          {
-            "name": "keine Angabe/Vorgabe",
-            "links": []
-          },
-          {
-            "name": "AL",
-            "links": [
-              {
-                "name": "choices.KategorieChoice.Anbau Zwischenfrucht/Untersaat",
-                "link": "disabling"
-              }
-            ]
-          },
-          {
-            "name": "GL",
-            "links": []
-          },
-          {
-            "name": "LF",
-            "links": []
-          },
-          {
-            "name": "DK/SK",
-            "links": [
-              {
-                "name": "choices.FoerderklasseChoice.Tierschutz/Tierwohlmaßnahmen mit diesem als Hauptziel",
-                "link": "disabling"
-              }
-            ]
-          },
-          {
-            "name": "HFF",
-            "links": []
-          },
-          {
-            "name": "Landschaftselement/Biotop o.Ä.",
-            "links": [
-              {
-                "name": "choices.FoerderklasseChoice.Ausgleichszulage",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.FoerderklasseChoice.Erschwernisausgleich",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.FoerderklasseChoice.Vertragsnaturschutz",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.FoerderklasseChoice.Agrarumwelt- und Klimamaßnahmen AUKM",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Anbau Zwischenfrucht/Untersaat",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Förderung bestimmter Rassen / Sorten / Kulturen",
-                "link": "disabling"
-              }
-            ]
-          },
-          {
-            "name": "Wald/Forst",
-            "links": [
-              {
-                "name": "choices.FoerderklasseChoice.Erschwernisausgleich",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.FoerderklasseChoice.Vertragsnaturschutz",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.FoerderklasseChoice.Agrarumwelt- und Klimamaßnahmen AUKM",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Anbau Zwischenfrucht/Untersaat",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Förderung bestimmter Rassen / Sorten / Kulturen",
-                "link": "disabling"
-              }
-            ]
-          },
-          {
-            "name": "bitte um Unterstützung",
-            "links": []
-          }
-        ]
-      },
-      {
-        "name": "ZieleinheitChoice",
-        "children": [
-          {
-            "name": "keine Angabe/Vorgabe",
-            "links": []
-          },
-          {
-            "name": "m³ (z.B. Gülle)",
-            "links": [
-              {
-                "name": "choices.FoerderklasseChoice.Vertragsnaturschutz",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.FoerderklasseChoice.Agrarumwelt- und Klimamaßnahmen AUKM",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Düngemanagement",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Extensivierung",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.keine Angabe/Vorgabe",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.bitte um Unterstützung",
-                "link": "disabling"
-              }
-            ]
-          },
-          {
-            "name": "Kopf/Stück (z.B. Tiere oder Bäume)",
-            "links": [
-              {
-                "name": "choices.FoerderklasseChoice.Vertragsnaturschutz",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.FoerderklasseChoice.Agrarumwelt- und Klimamaßnahmen AUKM",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.FoerderklasseChoice.Tierschutz/Tierwohlmaßnahmen mit diesem als Hauptziel",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Anbau Zwischenfrucht/Untersaat",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Flächenstilllegung/Brache",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Nutzungsumwandlung",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.keine Angabe/Vorgabe",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.bitte um Unterstützung",
-                "link": "disabling"
-              }
-            ]
-          },
-          {
-            "name": "GV/GVE",
-            "links": [
-              {
-                "name": "choices.FoerderklasseChoice.Vertragsnaturschutz",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.FoerderklasseChoice.Agrarumwelt- und Klimamaßnahmen AUKM",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.FoerderklasseChoice.Tierschutz/Tierwohlmaßnahmen mit diesem als Hauptziel",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Anbau Zwischenfrucht/Untersaat",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Anlage/Pflege Struktur",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Flächenstilllegung/Brache",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Nutzungsumwandlung",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.keine Angabe/Vorgabe",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.bitte um Unterstützung",
-                "link": "disabling"
-              }
-            ]
-          },
-          {
-            "name": "RGV",
-            "links": [
-              {
-                "name": "choices.FoerderklasseChoice.Vertragsnaturschutz",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.FoerderklasseChoice.Agrarumwelt- und Klimamaßnahmen AUKM",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.FoerderklasseChoice.Tierschutz/Tierwohlmaßnahmen mit diesem als Hauptziel",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Anbau Zwischenfrucht/Untersaat",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Anlage/Pflege Struktur",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Flächenstilllegung/Brache",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Nutzungsumwandlung",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.keine Angabe/Vorgabe",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.bitte um Unterstützung",
-                "link": "disabling"
-              }
-            ]
-          },
-          {
-            "name": "ha",
-            "links": [
-              {
-                "name": "choices.ZielflaecheChoice.keine Angabe/Vorgabe",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.bitte um Unterstützung",
-                "link": "disabling"
-              }
-            ]
-          },
-          {
-            "name": "bitte um Unterstützung",
-            "links": []
-          }
-        ]
-      },
-      {
-        "name": "InhaltlichDefinierteKulisseChoice",
-        "children": [
-          {
-            "name": "ohne",
-            "links": []
-          },
-          {
-            "name": "Lage (z. B. an Gewässern, an Knicks, an Waldrändern)",
-            "links": []
-          },
-          {
-            "name": "Kulturen / Kulturgruppen (nach Mais, Reihenkulturen, vor Wintergetreide, ...)",
-            "links": [
-              {
-                "name": "choices.ZielflaecheChoice.AL",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.LF",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.DK/SK",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.HFF",
-                "link": "enabling"
-              }
-            ]
-          },
-          {
-            "name": "Habitate / Zielarten (z.B. artenreiches Grünland, FFH-Lebensraumtypen, Ackerlebensräume, bei Vorkommen bestimmter Arten)",
-            "links": []
-          },
-          {
-            "name": "bitte um Unterstützung",
-            "links": []
-          }
-        ]
-      },
-      {
-        "name": "NutzungsausschlussChoice",
-        "children": [
-          {
-            "name": "keine Angabe (kein Nutzungsausschluss)",
-            "links": []
-          },
-          {
-            "name": "Nutzung ist ausgeschlossen, keine Ernteabfuhr",
-            "links": [
-              {
-                "name": "choices.FoerderklasseChoice.Vertragsnaturschutz",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.FoerderklasseChoice.Agrarumwelt- und Klimamaßnahmen AUKM",
-                "link": "enabling"
-              }
-            ]
-          },
-          {
-            "name": "Erntegutnutzung ausschließlich für Biogasanlagen",
-            "links": []
-          },
-          {
-            "name": "ausschließlich Beweidung mit Schafen oder Ziegen auf nicht-Grünlandfläche erlaubt",
-            "links": []
-          },
-          {
-            "name": "ausschließlich Schröpfschnitt erlaubt",
-            "links": []
-          },
-          {
-            "name": "bitte um Unterstützung",
-            "links": []
-          }
-        ]
-      },
-      {
-        "name": "BetroffeneFruchtChoice",
-        "children": [
-          {
-            "name": "keine",
-            "links": []
-          },
-          {
-            "name": "auf Hauptfrucht",
-            "links": []
-          },
-          {
-            "name": "nur auf Nebenfrucht",
-            "links": [
-              {
-                "name": "choices.ZielflaecheChoice.GL",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.Landschaftselement/Biotop o.Ä.",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.Wald/Forst",
-                "link": "disabling"
-              }
-            ]
-          },
-          {
-            "name": "auf Haupt- und Nebenfrucht",
-            "links": [
-              {
-                "name": "choices.ZielflaecheChoice.GL",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.Landschaftselement/Biotop o.Ä.",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.Wald/Forst",
-                "link": "disabling"
-              }
-            ]
-          },
-          {
-            "name": "bitte um Unterstützung",
-            "links": []
-          }
-        ]
-      },
-      {
-        "name": "TierbestandsvorgabeChoice",
-        "children": [
-          {
-            "name": "ohne",
-            "links": []
-          },
-          {
-            "name": "Reduktion des Viehbestandes",
-            "links": []
-          },
-          {
-            "name": "Änderung der Haltungsbedingungen, z. B. Stallumbau, Einführung von Weidegang, Sommerweidehaltung, Haltung auf Stroh",
-            "links": [
-              {
-                "name": "choices.FoerderklasseChoice.Erschwernisausgleich",
-                "link": "disabling"
-              }
-            ]
-          },
-          {
-            "name": "verzögerter Auftrieb/Weidebeginn oder vorgezogener Abtrieb/Weidegangende",
-            "links": []
-          },
-          {
-            "name": "Gezielte Auswahl der Tierart/Rasse --> s. Spalte 'besondere Kultur- oder Tierart'",
-            "links": []
-          },
-          {
-            "name": "N/Stickstoff-reduzierte Fütterung von Tieren",
-            "links": [
-              {
-                "name": "choices.FoerderklasseChoice.Vertragsnaturschutz",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.FoerderklasseChoice.Agrarumwelt- und Klimamaßnahmen AUKM",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.FoerderklasseChoice.Tierschutz/Tierwohlmaßnahmen mit diesem als Hauptziel",
-                "link": "enabling"
-              }
-            ]
-          },
-          {
-            "name": "Verzicht Kupierung (Schnäbel, Hörner, Ringelschwänze etc.)",
-            "links": [
-              {
-                "name": "choices.FoerderklasseChoice.Vertragsnaturschutz",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.FoerderklasseChoice.Agrarumwelt- und Klimamaßnahmen AUKM",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.FoerderklasseChoice.Tierschutz/Tierwohlmaßnahmen mit diesem als Hauptziel",
-                "link": "enabling"
-              }
-            ]
-          },
-          {
-            "name": "bitte um Unterstützung",
-            "links": []
-          }
-        ]
-      },
-      {
-        "name": "MengenVorgabenNennerChoice",
-        "children": [
-          {
-            "name": "NA",
-            "links": [
-              {
-                "name": "choices.ZielflaecheChoice.keine Angabe/Vorgabe",
-                "link": "enabling"
-              }
-            ]
-          },
-          {
-            "name": "ha LF",
-            "links": [
-              {
-                "name": "choices.ZielflaecheChoice.LF",
-                "link": "enabling"
-              }
-            ]
-          },
-          {
-            "name": "ha GL",
-            "links": [
-              {
-                "name": "choices.ZielflaecheChoice.GL",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.LF",
-                "link": "enabling"
-              }
-            ]
-          },
-          {
-            "name": "bitte um Unterstützung",
-            "links": []
-          },
-          {
-            "name": "ha",
-            "links": [
-              {
-                "name": "choices.ZielflaecheChoice.keine Angabe/Vorgabe",
-                "link": "disabling"
-              }
-            ]
-          },
-          {
-            "name": "ha HFF",
-            "links": [
-              {
-                "name": "choices.ZielflaecheChoice.LF",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.HFF",
-                "link": "enabling"
-              }
-            ]
-          },
-          {
-            "name": "ha AL",
-            "links": [
-              {
-                "name": "choices.ZielflaecheChoice.AL",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.LF",
-                "link": "enabling"
-              }
-            ]
-          },
-          {
-            "name": "Schlag",
-            "links": [
-              {
-                "name": "choices.ZielflaecheChoice.keine Angabe/Vorgabe",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.Landschaftselement/Biotop o.Ä.",
-                "link": "disabling"
-              }
-            ]
-          },
-          {
-            "name": "förderfähige Ackerkulturen",
-            "links": [
-              {
-                "name": "choices.ZielflaecheChoice.AL",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.LF",
-                "link": "enabling"
-              }
-            ]
-          },
-          {
-            "name": "Meter lang",
-            "links": [
-              {
-                "name": "choices.ZielflaecheChoice.keine Angabe/Vorgabe",
-                "link": "disabling"
-              }
-            ]
-          },
-          {
-            "name": "Meter breit",
-            "links": [
-              {
-                "name": "choices.ZielflaecheChoice.keine Angabe/Vorgabe",
-                "link": "disabling"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "BodenbearbeitungChoice",
-        "children": [
-          {
-            "name": "keine Angabe/ohne Einschränkung",
-            "links": []
-          },
-          {
-            "name": "reduzierte Bodenbearbeitung MIT spezifischer/besonderer Bearbeitungstechnik",
-            "links": [
-              {
-                "name": "choices.ZielflaecheChoice.Wald/Forst",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Anbau Zwischenfrucht/Untersaat",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Anlage/Pflege Struktur",
-                "link": "disabling"
-              }
-            ]
-          },
-          {
-            "name": "reduzierte Bodenbearbeitung OHNE spezifische/besondere Bearbeitungstechnik",
-            "links": [
-              {
-                "name": "choices.ZielflaecheChoice.Wald/Forst",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Anbau Zwischenfrucht/Untersaat",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Förderung bestimmter Rassen / Sorten / Kulturen",
-                "link": "disabling"
-              }
-            ]
-          },
-          {
-            "name": "Verbot der Bodenbearbeitung",
-            "links": []
-          },
-          {
-            "name": "Grünlanderneuerung, flachwendend",
-            "links": [
-              {
-                "name": "choices.ZielflaecheChoice.GL",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.LF",
-                "link": "enabling"
-              }
-            ]
-          },
-          {
-            "name": "bitte um Unterstützung",
-            "links": []
-          }
-        ]
-      },
-      {
-        "name": "DuengungChoice",
-        "children": [
-          {
-            "name": "keine Angabe / ohne Einschränkung",
-            "links": []
-          },
-          {
-            "name": "keine Düngung",
-            "links": []
-          },
-          {
-            "name": "besondere Ausbringungstechnik (z.B. Schleppschlauch)  mit weiteren Angaben in Technische Anforderungen",
-            "links": []
-          },
-          {
-            "name": "verkürzte oder vorgegebene Ausbringungszeiten",
-            "links": []
-          },
-          {
-            "name": "reduzierte Düngungsmenge",
-            "links": []
-          },
-          {
-            "name": "Beschränkung auf spezifische Düngemittel",
-            "links": []
-          },
-          {
-            "name": "bitte um Unterstützung",
-            "links": []
-          }
-        ]
-      },
-      {
-        "name": "PflanzenschutzChoice",
-        "children": [
-          {
-            "name": "keine Angabe / ohne Einschränkung",
-            "links": []
-          },
-          {
-            "name": "integrierter Pflanzenschutz",
-            "links": []
-          },
-          {
-            "name": "gezielte Ausbringung von Nützlingen oder Pheromonen",
-            "links": [
-              {
-                "name": "choices.ZielflaecheChoice.GL",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.Landschaftselement/Biotop o.Ä.",
-                "link": "disabling"
-              }
-            ]
-          },
-          {
-            "name": "chem. Pflanzenschutz, auf Einzelpflanzenbehandlung beschränkt",
-            "links": []
-          },
-          {
-            "name": "kein chem. Pflanzenschutz",
-            "links": []
-          },
-          {
-            "name": "Verzicht auf Herbizide",
-            "links": []
-          },
-          {
-            "name": "Verzicht auf Wachstumsregler",
-            "links": [
-              {
-                "name": "choices.ZielflaecheChoice.AL",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.LF",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.DK/SK",
-                "link": "enabling"
-              }
-            ]
-          },
-          {
-            "name": "optionale Einschränkung",
-            "links": []
-          },
-          {
-            "name": "bitte um Unterstützung",
-            "links": []
-          }
-        ]
-      },
-      {
-        "name": "GruenlandtypChoice",
-        "children": [
-          {
-            "name": "keine Angabe",
-            "links": []
-          },
-          {
-            "name": "Wiese",
-            "links": []
-          },
-          {
-            "name": "Weide",
-            "links": []
-          },
-          {
-            "name": "Wiese/Weide (Maßnahmenbeschreibung beinhaltet beide Optionen)",
-            "links": []
-          },
-          {
-            "name": "Streuobst/-wiese/-bestand",
-            "links": []
-          },
-          {
-            "name": "Heide",
-            "links": []
-          },
-          {
-            "name": "Alm",
-            "links": []
-          },
-          {
-            "name": "Hutung",
-            "links": []
-          },
-          {
-            "name": "Feuchtgrünland",
-            "links": []
-          },
-          {
-            "name": "Magerrasen",
-            "links": []
-          },
-          {
-            "name": "bitte um Unterstützung",
-            "links": []
-          }
-        ]
-      },
-      {
-        "name": "TechnischeAnforderungenChoice",
-        "children": [
-          {
-            "name": "ohne",
-            "links": []
-          },
-          {
-            "name": "Reduzierter Reifendruck",
-            "links": []
-          },
-          {
-            "name": "Mulchen/Eggen",
-            "links": []
-          },
-          {
-            "name": "Direktsaat-/Mulchsaat-/Mulchpflanzverfahren",
-            "links": []
-          },
-          {
-            "name": "Besondere Mähtechnik, z. B: Messerbalken",
-            "links": [
-              {
-                "name": "choices.ZielflaecheChoice.GL",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.LF",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.HFF",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.Landschaftselement/Biotop o.Ä.",
-                "link": "enabling"
-              }
-            ]
-          },
-          {
-            "name": "Besondere Weidetechnik (Standweide )",
-            "links": [
-              {
-                "name": "choices.ZielflaecheChoice.GL",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.LF",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.HFF",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.Landschaftselement/Biotop o.Ä.",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.GruenlandtypChoice.Wiese",
-                "link": "disabling"
-              }
-            ]
-          },
-          {
-            "name": "Vernässung, zumindest temporär (Wasserstandsanhebung im Winter, Rückbau von Drainagen)",
-            "links": [
-              {
-                "name": "choices.FoerderklasseChoice.Ökolandbau",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.FoerderklasseChoice.Tierschutz/Tierwohlmaßnahmen mit diesem als Hauptziel",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.ZieleinheitChoice.m³ (z.B. Gülle)",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.ZieleinheitChoice.Kopf/Stück (z.B. Tiere oder Bäume)",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.ZieleinheitChoice.GV/GVE",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.ZieleinheitChoice.RGV",
-                "link": "disabling"
-              }
-            ]
-          },
-          {
-            "name": "Einsatz stabilisierter Dünger (z.B. CULTAN-Verfahren, N-Depotdüngung)",
-            "links": [
-              {
-                "name": "choices.DuengungChoice.Beschränkung auf spezifische Düngemittel",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.FoerderklasseChoice.Ausgleichszulage",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.FoerderklasseChoice.Tierschutz/Tierwohlmaßnahmen mit diesem als Hauptziel",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Anlage/Pflege Struktur",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Nutzungsumwandlung",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Förderung bestimmter Rassen / Sorten / Kulturen",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.ZieleinheitChoice.RGV",
-                "link": "disabling"
-              }
-            ]
-          },
-          {
-            "name": "standortangepasst/teilflächenspezifisch (z.B. bei Düngung oder Einsatz von Exaktstreuer)",
-            "links": [
-              {
-                "name": "choices.FoerderklasseChoice.Tierschutz/Tierwohlmaßnahmen mit diesem als Hauptziel",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Förderung bestimmter Rassen / Sorten / Kulturen",
-                "link": "disabling"
-              }
-            ]
-          },
-          {
-            "name": "Analysen zur Düngungsplanung, z.B. Bodenuntersuchung/Frühjahres-Nmin-Analyse, Pflanzenanalysen, Wirtschaftsdünger- und Gärsubstratanalysen, Hoftorbilanzen, NIRS-Verfahren",
-            "links": [
-              {
-                "name": "choices.FoerderklasseChoice.Tierschutz/Tierwohlmaßnahmen mit diesem als Hauptziel",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Anlage/Pflege Struktur",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Flächenstilllegung/Brache",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Förderung bestimmter Rassen / Sorten / Kulturen",
-                "link": "disabling"
-              }
-            ]
-          },
-          {
-            "name": "Emissionsarme Ausbringungstechnik (Schleppschlauch/-Schuh etc.)",
-            "links": [
-              {
-                "name": "choices.DuengungChoice.besondere Ausbringungstechnik (z.B. Schleppschlauch)  mit weiteren Angaben in Technische Anforderungen",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Anlage/Pflege Struktur",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Flächenstilllegung/Brache",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Nutzungsumwandlung",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Förderung bestimmter Rassen / Sorten / Kulturen",
-                "link": "disabling"
-              }
-            ]
-          },
-          {
-            "name": "in Reihen (z.B. strip till oder Düngung in Reihen)",
-            "links": [
-              {
-                "name": "choices.KategorieChoice.Anlage/Pflege Struktur",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Flächenstilllegung/Brache",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Förderung bestimmter Rassen / Sorten / Kulturen",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.GL",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.Landschaftselement/Biotop o.Ä.",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.Wald/Forst",
-                "link": "disabling"
-              }
-            ]
-          },
-          {
-            "name": "Aussaat/Anpflazung in weiter Reihe / doppeltem Reihenabstand / mit reduzierter Saatstärke/-menge",
-            "links": [
-              {
-                "name": "choices.ZielflaecheChoice.AL",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.LF",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.DK/SK",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.HFF",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Anlage/Pflege Struktur",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Flächenstilllegung/Brache",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.ZieleinheitChoice.m³ (z.B. Gülle)",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.ZieleinheitChoice.Kopf/Stück (z.B. Tiere oder Bäume)",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.ZieleinheitChoice.GV/GVE",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.ZieleinheitChoice.RGV",
-                "link": "disabling"
-              }
-            ]
-          },
-          {
-            "name": "Aussaat/Anpflanzung mit enger Reihe",
-            "links": [
-              {
-                "name": "choices.ZielflaecheChoice.AL",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.LF",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.DK/SK",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.HFF",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Anlage/Pflege Struktur",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Flächenstilllegung/Brache",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.ZieleinheitChoice.m³ (z.B. Gülle)",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.ZieleinheitChoice.Kopf/Stück (z.B. Tiere oder Bäume)",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.ZieleinheitChoice.GV/GVE",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.ZieleinheitChoice.RGV",
-                "link": "disabling"
-              }
-            ]
-          },
-          {
-            "name": "Dekanter",
-            "links": [
-              {
-                "name": "choices.DuengungChoice.besondere Ausbringungstechnik (z.B. Schleppschlauch)  mit weiteren Angaben in Technische Anforderungen",
-                "link": "enabling"
-              }
-            ]
-          },
-          {
-            "name": "bitte um Unterstützung",
-            "links": []
-          }
-        ]
-      },
-      {
-        "name": "PflanzenartOderAnzahlArtenChoice",
-        "children": [
-          {
-            "name": "keine/ohne",
-            "links": []
-          },
-          {
-            "name": "Blühmischung konkret vorgegeben",
-            "links": [
-              {
-                "name": "choices.KategorieChoice.Anbau Zwischenfrucht/Untersaat",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Anlage/Pflege Struktur",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Extensivierung",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Flächenstilllegung/Brache",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Nutzungsumwandlung",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZieleinheitChoice.ha",
-                "link": "enabling"
-              }
-            ]
-          },
-          {
-            "name": "Blühmischung mit Optionen vorgegeben (z. B. Anzahl Arten, Artherkunft)",
-            "links": [
-              {
-                "name": "choices.KategorieChoice.Anbau Zwischenfrucht/Untersaat",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Anlage/Pflege Struktur",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Extensivierung",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Flächenstilllegung/Brache",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Nutzungsumwandlung",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZieleinheitChoice.ha",
-                "link": "enabling"
-              }
-            ]
-          },
-          {
-            "name": "<=4-gliedrige Fruchtfolge",
-            "links": [
-              {
-                "name": "choices.KategorieChoice.Extensivierung",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Nutzungsumwandlung",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Förderung bestimmter Rassen / Sorten / Kulturen",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.AL",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.LF",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.HFF",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZieleinheitChoice.ha",
-                "link": "enabling"
-              }
-            ]
-          },
-          {
-            "name": ">=5-gliedrige Fruchtfolge",
-            "links": [
-              {
-                "name": "choices.KategorieChoice.Extensivierung",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Nutzungsumwandlung",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Förderung bestimmter Rassen / Sorten / Kulturen",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.AL",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.LF",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.HFF",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZieleinheitChoice.ha",
-                "link": "enabling"
-              }
-            ]
-          },
-          {
-            "name": "vorgegebene Anzahl von Kulturen, die zeitgleich angebaut werden müssen",
-            "links": [
-              {
-                "name": "choices.KategorieChoice.Extensivierung",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Nutzungsumwandlung",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Förderung bestimmter Rassen / Sorten / Kulturen",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.AL",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.LF",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.HFF",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZieleinheitChoice.ha",
-                "link": "enabling"
-              }
-            ]
-          },
-          {
-            "name": "Fruchtfolge mit Bracheanteil",
-            "links": [
-              {
-                "name": "choices.ZieleinheitChoice.ha",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Anbau Zwischenfrucht/Untersaat",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Düngemanagement",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.Wald/Forst",
-                "link": "disabling"
-              }
-            ]
-          },
-          {
-            "name": "weitere/andere Fruchtfolgen",
-            "links": [
-              {
-                "name": "choices.ZielflaecheChoice.AL",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.LF",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.DK/SK",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.HFF",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZieleinheitChoice.ha",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Anlage/Pflege Struktur",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Nutzungsumwandlung",
-                "link": "disabling"
-              }
-            ]
-          },
-          {
-            "name": "seltene Kulturen",
-            "links": [
-              {
-                "name": "choices.ZielflaecheChoice.AL",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.LF",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.DK/SK",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.HFF",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZieleinheitChoice.ha",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Anbau Zwischenfrucht/Untersaat",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Düngemanagement",
-                "link": "disabling"
-              }
-            ]
-          },
-          {
-            "name": "Leguminosen",
-            "links": [
-              {
-                "name": "choices.ZielflaecheChoice.AL",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.LF",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.HFF",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZieleinheitChoice.ha",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Anbau Zwischenfrucht/Untersaat",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Düngemanagement",
-                "link": "disabling"
-              }
-            ]
-          },
-          {
-            "name": "Zwischenfrucht",
-            "links": [
-              {
-                "name": "choices.KategorieChoice.Anbau Zwischenfrucht/Untersaat",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.AL",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.LF",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.DK/SK",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.HFF",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZieleinheitChoice.ha",
-                "link": "enabling"
-              }
-            ]
-          },
-          {
-            "name": "Untersaat",
-            "links": [
-              {
-                "name": "choices.KategorieChoice.Anbau Zwischenfrucht/Untersaat",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.AL",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.LF",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.DK/SK",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.HFF",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZieleinheitChoice.ha",
-                "link": "enabling"
-              }
-            ]
-          },
-          {
-            "name": "Grünland/Feldgraseinsaat/-Anlage",
-            "links": [
-              {
-                "name": "choices.FoerderklasseChoice.Vertragsnaturschutz",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.FoerderklasseChoice.Agrarumwelt- und Klimamaßnahmen AUKM",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Extensivierung",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Flächenstilllegung/Brache",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Nutzungsumwandlung",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZieleinheitChoice.ha",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.DK/SK",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.Wald/Forst",
-                "link": "disabling"
-              }
-            ]
-          },
-          {
-            "name": "Nachweis von Kennarten",
-            "links": [
-              {
-                "name": "choices.FoerderklasseChoice.Vertragsnaturschutz",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.FoerderklasseChoice.Agrarumwelt- und Klimamaßnahmen AUKM",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.GL",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.Landschaftselement/Biotop o.Ä.",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZieleinheitChoice.ha",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Anbau Zwischenfrucht/Untersaat",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Düngemanagement",
-                "link": "disabling"
-              }
-            ]
-          },
-          {
-            "name": "bitte um Unterstützung",
-            "links": []
-          }
-        ]
-      },
-      {
-        "name": "VorgabeArtMischungSaatgutChoice",
-        "children": [
-          {
-            "name": "keine/ohne",
-            "links": [
-              {
-                "name": "choices.PflanzenartOderAnzahlArtenChoice.Blühmischung konkret vorgegeben",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.PflanzenartOderAnzahlArtenChoice.Blühmischung mit Optionen vorgegeben (z. B. Anzahl Arten, Artherkunft)",
-                "link": "disabling"
-              }
-            ]
-          },
-          {
-            "name": "Regiosaat",
-            "links": [
-              {
-                "name": "choices.PflanzenartOderAnzahlArtenChoice.Blühmischung konkret vorgegeben",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.PflanzenartOderAnzahlArtenChoice.Blühmischung mit Optionen vorgegeben (z. B. Anzahl Arten, Artherkunft)",
-                "link": "enabling"
-              }
-            ]
-          },
-          {
-            "name": "Wildpflanzen",
-            "links": [
-              {
-                "name": "choices.PflanzenartOderAnzahlArtenChoice.Blühmischung konkret vorgegeben",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.PflanzenartOderAnzahlArtenChoice.Blühmischung mit Optionen vorgegeben (z. B. Anzahl Arten, Artherkunft)",
-                "link": "enabling"
-              }
-            ]
-          },
-          {
-            "name": "Kulturarten",
-            "links": [
-              {
-                "name": "choices.PflanzenartOderAnzahlArtenChoice.Grünland/Feldgraseinsaat/-Anlage",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.PflanzenartOderAnzahlArtenChoice.Nachweis von Kennarten",
-                "link": "disabling"
-              }
-            ]
-          },
-          {
-            "name": "ohne Leguminosen",
-            "links": [
-              {
-                "name": "choices.PflanzenartOderAnzahlArtenChoice.Grünland/Feldgraseinsaat/-Anlage",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.PflanzenartOderAnzahlArtenChoice.Nachweis von Kennarten",
-                "link": "disabling"
-              }
-            ]
-          },
-          {
-            "name": "kleinkörnige Leguminosen",
-            "links": [
-              {
-                "name": "choices.PflanzenartOderAnzahlArtenChoice.Leguminosen",
-                "link": "enabling"
-              }
-            ]
-          },
-          {
-            "name": "winterhart (Zwischenfrucht mit Standzeit > 3 Monaten/mit spätem Umbruch/frostresistent)",
-            "links": [
-              {
-                "name": "choices.PflanzenartOderAnzahlArtenChoice.Zwischenfrucht",
-                "link": "enabling"
-              }
-            ]
-          },
-          {
-            "name": "abfrierend (Zwischenfrucht mit Standzeit < 3 Monaten/mit frühem Umbruch/nicht-frostresistent)",
-            "links": [
-              {
-                "name": "choices.PflanzenartOderAnzahlArtenChoice.Zwischenfrucht",
-                "link": "enabling"
-              }
-            ]
-          },
-          {
-            "name": "bitte um Unterstützung",
-            "links": []
-          }
-        ]
-      },
-      {
-        "name": "VerwendungBestimmterTierartChoice",
-        "children": [
-          {
-            "name": "keine/ohne",
-            "links": []
-          },
-          {
-            "name": "Schafe",
-            "links": []
-          },
-          {
-            "name": "Ziegen",
-            "links": []
-          },
-          {
-            "name": "Wasserbüffel",
-            "links": []
-          },
-          {
-            "name": "Schweine",
-            "links": [
-              {
-                "name": "choices.ZielflaecheChoice.GL",
-                "link": "disabling"
-              }
-            ]
-          },
-          {
-            "name": "Geflügel",
-            "links": []
-          },
-          {
-            "name": "Rinder ohne Milchkühe",
-            "links": []
-          },
-          {
-            "name": "Milchkühe",
-            "links": []
-          },
-          {
-            "name": "Pferde",
-            "links": []
-          },
-          {
-            "name": "Bienen",
-            "links": []
-          },
-          {
-            "name": "bitte um Unterstützung",
-            "links": []
-          }
-        ]
-      },
-      {
-        "name": "AusschlussChoice",
-        "children": [
-          {
-            "name": "keine/ohne",
-            "links": []
-          },
-          {
-            "name": "Silage (Maßnahme z.B. Silageverzicht im gesamten Betrieb)",
-            "links": [
-              {
-                "name": "choices.ZielflaecheChoice.GL",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.LF",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.HFF",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Anbau Zwischenfrucht/Untersaat",
-                "link": "disabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Förderung bestimmter Rassen / Sorten / Kulturen",
-                "link": "disabling"
-              }
-            ]
-          },
-          {
-            "name": "Herbstumbruch",
-            "links": [
-              {
-                "name": "choices.ZielflaecheChoice.AL",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.LF",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.HFF",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Förderung bestimmter Rassen / Sorten / Kulturen",
-                "link": "disabling"
-              }
-            ]
-          },
-          {
-            "name": "Kulturen/Kulturgruppen/Kulturmischungen",
-            "links": [
-              {
-                "name": "choices.ZielflaecheChoice.AL",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.LF",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.ZielflaecheChoice.HFF",
-                "link": "enabling"
-              },
-              {
-                "name": "choices.KategorieChoice.Anbau Zwischenfrucht/Untersaat",
-                "link": "disabling"
-              }
-            ]
-          },
-          {
-            "name": "bitte um Unterstützung",
-            "links": []
-          }
-        ]
-      }
-    ]
-  }
+  "name": "choices",
+  "children": [
+    {
+      "name": "FoerderklasseChoice",
+      "children": [
+        {
+          "name": "Ökolandbau",
+          "links": []
+        },
+        {
+          "name": "Ausgleichszulage",
+          "links": []
+        },
+        {
+          "name": "Erschwernisausgleich",
+          "links": []
+        },
+        {
+          "name": "Vertragsnaturschutz",
+          "links": []
+        },
+        {
+          "name": "Agrarumwelt- und Klimamaßnahmen AUKM",
+          "links": []
+        },
+        {
+          "name": "Tierschutz/Tierwohlmaßnahmen mit diesem als Hauptziel",
+          "links": []
+        },
+        {
+          "name": "bitte um Unterstützung",
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "KategorieChoice",
+      "children": [
+        {
+          "name": "Anbau Zwischenfrucht/Untersaat",
+          "links": [
+            {
+              "name": "choices.FoerderklasseChoice.Agrarumwelt- und Klimamaßnahmen AUKM",
+              "link": "enabling"
+            }
+          ]
+        },
+        {
+          "name": "Anlage/Pflege Struktur",
+          "links": [
+            {
+              "name": "choices.FoerderklasseChoice.Vertragsnaturschutz",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.FoerderklasseChoice.Agrarumwelt- und Klimamaßnahmen AUKM",
+              "link": "enabling"
+            }
+          ]
+        },
+        {
+          "name": "Düngemanagement",
+          "links": [
+            {
+              "name": "choices.FoerderklasseChoice.Vertragsnaturschutz",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.FoerderklasseChoice.Agrarumwelt- und Klimamaßnahmen AUKM",
+              "link": "enabling"
+            }
+          ]
+        },
+        {
+          "name": "Extensivierung",
+          "links": []
+        },
+        {
+          "name": "Flächenstilllegung/Brache",
+          "links": [
+            {
+              "name": "choices.FoerderklasseChoice.Vertragsnaturschutz",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.FoerderklasseChoice.Agrarumwelt- und Klimamaßnahmen AUKM",
+              "link": "enabling"
+            }
+          ]
+        },
+        {
+          "name": "Nutzungsumwandlung",
+          "links": [
+            {
+              "name": "choices.FoerderklasseChoice.Vertragsnaturschutz",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.FoerderklasseChoice.Agrarumwelt- und Klimamaßnahmen AUKM",
+              "link": "enabling"
+            }
+          ]
+        },
+        {
+          "name": "Förderung bestimmter Rassen / Sorten / Kulturen",
+          "links": [
+            {
+              "name": "choices.FoerderklasseChoice.Erschwernisausgleich",
+              "link": "disabling"
+            }
+          ]
+        },
+        {
+          "name": "bitte um Unterstützung",
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "ZielflaecheChoice",
+      "children": [
+        {
+          "name": "keine Angabe/Vorgabe",
+          "links": []
+        },
+        {
+          "name": "AL",
+          "links": [
+            {
+              "name": "choices.KategorieChoice.Anbau Zwischenfrucht/Untersaat",
+              "link": "disabling"
+            }
+          ]
+        },
+        {
+          "name": "GL",
+          "links": []
+        },
+        {
+          "name": "LF",
+          "links": []
+        },
+        {
+          "name": "DK/SK",
+          "links": [
+            {
+              "name": "choices.FoerderklasseChoice.Tierschutz/Tierwohlmaßnahmen mit diesem als Hauptziel",
+              "link": "disabling"
+            }
+          ]
+        },
+        {
+          "name": "HFF",
+          "links": []
+        },
+        {
+          "name": "Landschaftselement/Biotop o.Ä.",
+          "links": [
+            {
+              "name": "choices.FoerderklasseChoice.Ausgleichszulage",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.FoerderklasseChoice.Erschwernisausgleich",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.FoerderklasseChoice.Vertragsnaturschutz",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.FoerderklasseChoice.Agrarumwelt- und Klimamaßnahmen AUKM",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Anbau Zwischenfrucht/Untersaat",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Förderung bestimmter Rassen / Sorten / Kulturen",
+              "link": "disabling"
+            }
+          ]
+        },
+        {
+          "name": "Wald/Forst",
+          "links": [
+            {
+              "name": "choices.FoerderklasseChoice.Erschwernisausgleich",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.FoerderklasseChoice.Vertragsnaturschutz",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.FoerderklasseChoice.Agrarumwelt- und Klimamaßnahmen AUKM",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Anbau Zwischenfrucht/Untersaat",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Förderung bestimmter Rassen / Sorten / Kulturen",
+              "link": "disabling"
+            }
+          ]
+        },
+        {
+          "name": "bitte um Unterstützung",
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "ZieleinheitChoice",
+      "children": [
+        {
+          "name": "keine Angabe/Vorgabe",
+          "links": []
+        },
+        {
+          "name": "m³ ",
+          "links": [
+            {
+              "name": "choices.FoerderklasseChoice.Vertragsnaturschutz",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.FoerderklasseChoice.Agrarumwelt- und Klimamaßnahmen AUKM",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Düngemanagement",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Extensivierung",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.keine Angabe/Vorgabe",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.bitte um Unterstützung",
+              "link": "disabling"
+            }
+          ]
+        },
+        {
+          "name": "Kopf/Stück ",
+          "links": [
+            {
+              "name": "choices.FoerderklasseChoice.Vertragsnaturschutz",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.FoerderklasseChoice.Agrarumwelt- und Klimamaßnahmen AUKM",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.FoerderklasseChoice.Tierschutz/Tierwohlmaßnahmen mit diesem als Hauptziel",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Anbau Zwischenfrucht/Untersaat",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Flächenstilllegung/Brache",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Nutzungsumwandlung",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.keine Angabe/Vorgabe",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.bitte um Unterstützung",
+              "link": "disabling"
+            }
+          ]
+        },
+        {
+          "name": "GV/GVE",
+          "links": [
+            {
+              "name": "choices.FoerderklasseChoice.Vertragsnaturschutz",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.FoerderklasseChoice.Agrarumwelt- und Klimamaßnahmen AUKM",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.FoerderklasseChoice.Tierschutz/Tierwohlmaßnahmen mit diesem als Hauptziel",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Anbau Zwischenfrucht/Untersaat",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Anlage/Pflege Struktur",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Flächenstilllegung/Brache",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Nutzungsumwandlung",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.keine Angabe/Vorgabe",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.bitte um Unterstützung",
+              "link": "disabling"
+            }
+          ]
+        },
+        {
+          "name": "RGV",
+          "links": [
+            {
+              "name": "choices.FoerderklasseChoice.Vertragsnaturschutz",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.FoerderklasseChoice.Agrarumwelt- und Klimamaßnahmen AUKM",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.FoerderklasseChoice.Tierschutz/Tierwohlmaßnahmen mit diesem als Hauptziel",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Anbau Zwischenfrucht/Untersaat",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Anlage/Pflege Struktur",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Flächenstilllegung/Brache",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Nutzungsumwandlung",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.keine Angabe/Vorgabe",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.bitte um Unterstützung",
+              "link": "disabling"
+            }
+          ]
+        },
+        {
+          "name": "ha",
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.keine Angabe/Vorgabe",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.bitte um Unterstützung",
+              "link": "disabling"
+            }
+          ]
+        },
+        {
+          "name": "bitte um Unterstützung",
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "InhaltlichDefinierteKulisseChoice",
+      "children": [
+        {
+          "name": "ohne",
+          "links": []
+        },
+        {
+          "name": "Lage ",
+          "links": []
+        },
+        {
+          "name": "Kulturen / Kulturgruppen ",
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.AL",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.LF",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.DK/SK",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.HFF",
+              "link": "enabling"
+            }
+          ]
+        },
+        {
+          "name": "Habitate / Zielarten ",
+          "links": []
+        },
+        {
+          "name": "bitte um Unterstützung",
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "NutzungsausschlussChoice",
+      "children": [
+        {
+          "name": "keine Angabe ",
+          "links": []
+        },
+        {
+          "name": "Nutzung ist ausgeschlossen, keine Ernteabfuhr",
+          "links": [
+            {
+              "name": "choices.FoerderklasseChoice.Vertragsnaturschutz",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.FoerderklasseChoice.Agrarumwelt- und Klimamaßnahmen AUKM",
+              "link": "enabling"
+            }
+          ]
+        },
+        {
+          "name": "Erntegutnutzung ausschließlich für Biogasanlagen",
+          "links": []
+        },
+        {
+          "name": "ausschließlich Beweidung mit Schafen oder Ziegen auf nicht-Grünlandfläche erlaubt",
+          "links": []
+        },
+        {
+          "name": "ausschließlich Schröpfschnitt erlaubt",
+          "links": []
+        },
+        {
+          "name": "bitte um Unterstützung",
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "BetroffeneFruchtChoice",
+      "children": [
+        {
+          "name": "keine",
+          "links": []
+        },
+        {
+          "name": "auf Hauptfrucht",
+          "links": []
+        },
+        {
+          "name": "nur auf Nebenfrucht",
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.GL",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.Landschaftselement/Biotop o.Ä.",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.Wald/Forst",
+              "link": "disabling"
+            }
+          ]
+        },
+        {
+          "name": "auf Haupt- und Nebenfrucht",
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.GL",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.Landschaftselement/Biotop o.Ä.",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.Wald/Forst",
+              "link": "disabling"
+            }
+          ]
+        },
+        {
+          "name": "bitte um Unterstützung",
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "TierbestandsvorgabeChoice",
+      "children": [
+        {
+          "name": "ohne",
+          "links": []
+        },
+        {
+          "name": "Reduktion des Viehbestandes",
+          "links": []
+        },
+        {
+          "name": "Änderung der Haltungsbedingungen, z. B. Stallumbau, Einführung von Weidegang, Sommerweidehaltung, Haltung auf Stroh",
+          "links": [
+            {
+              "name": "choices.FoerderklasseChoice.Erschwernisausgleich",
+              "link": "disabling"
+            }
+          ]
+        },
+        {
+          "name": "verzögerter Auftrieb/Weidebeginn oder vorgezogener Abtrieb/Weidegangende",
+          "links": []
+        },
+        {
+          "name": "Gezielte Auswahl der Tierart/Rasse --> s. Spalte 'besondere Kultur- oder Tierart'",
+          "links": []
+        },
+        {
+          "name": "N/Stickstoff-reduzierte Fütterung von Tieren",
+          "links": [
+            {
+              "name": "choices.FoerderklasseChoice.Vertragsnaturschutz",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.FoerderklasseChoice.Agrarumwelt- und Klimamaßnahmen AUKM",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.FoerderklasseChoice.Tierschutz/Tierwohlmaßnahmen mit diesem als Hauptziel",
+              "link": "enabling"
+            }
+          ]
+        },
+        {
+          "name": "Verzicht Kupierung ",
+          "links": [
+            {
+              "name": "choices.FoerderklasseChoice.Vertragsnaturschutz",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.FoerderklasseChoice.Agrarumwelt- und Klimamaßnahmen AUKM",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.FoerderklasseChoice.Tierschutz/Tierwohlmaßnahmen mit diesem als Hauptziel",
+              "link": "enabling"
+            }
+          ]
+        },
+        {
+          "name": "bitte um Unterstützung",
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "MengenVorgabenNennerChoice",
+      "children": [
+        {
+          "name": "NA",
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.keine Angabe/Vorgabe",
+              "link": "enabling"
+            }
+          ]
+        },
+        {
+          "name": "ha LF",
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.LF",
+              "link": "enabling"
+            }
+          ]
+        },
+        {
+          "name": "ha GL",
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.GL",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.LF",
+              "link": "enabling"
+            }
+          ]
+        },
+        {
+          "name": "bitte um Unterstützung",
+          "links": []
+        },
+        {
+          "name": "ha",
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.keine Angabe/Vorgabe",
+              "link": "disabling"
+            }
+          ]
+        },
+        {
+          "name": "ha HFF",
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.LF",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.HFF",
+              "link": "enabling"
+            }
+          ]
+        },
+        {
+          "name": "ha AL",
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.AL",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.LF",
+              "link": "enabling"
+            }
+          ]
+        },
+        {
+          "name": "Schlag",
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.keine Angabe/Vorgabe",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.Landschaftselement/Biotop o.Ä.",
+              "link": "disabling"
+            }
+          ]
+        },
+        {
+          "name": "förderfähige Ackerkulturen",
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.AL",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.LF",
+              "link": "enabling"
+            }
+          ]
+        },
+        {
+          "name": "Meter lang",
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.keine Angabe/Vorgabe",
+              "link": "disabling"
+            }
+          ]
+        },
+        {
+          "name": "Meter breit",
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.keine Angabe/Vorgabe",
+              "link": "disabling"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BodenbearbeitungChoice",
+      "children": [
+        {
+          "name": "keine Angabe/ohne Einschränkung",
+          "links": []
+        },
+        {
+          "name": "reduzierte Bodenbearbeitung MIT spezifischer/besonderer Bearbeitungstechnik",
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.Wald/Forst",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Anbau Zwischenfrucht/Untersaat",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Anlage/Pflege Struktur",
+              "link": "disabling"
+            }
+          ]
+        },
+        {
+          "name": "reduzierte Bodenbearbeitung OHNE spezifische/besondere Bearbeitungstechnik",
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.Wald/Forst",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Anbau Zwischenfrucht/Untersaat",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Förderung bestimmter Rassen / Sorten / Kulturen",
+              "link": "disabling"
+            }
+          ]
+        },
+        {
+          "name": "Verbot der Bodenbearbeitung",
+          "links": []
+        },
+        {
+          "name": "Grünlanderneuerung, flachwendend",
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.GL",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.LF",
+              "link": "enabling"
+            }
+          ]
+        },
+        {
+          "name": "bitte um Unterstützung",
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "DuengungChoice",
+      "children": [
+        {
+          "name": "keine Angabe / ohne Einschränkung",
+          "links": []
+        },
+        {
+          "name": "keine Düngung",
+          "links": []
+        },
+        {
+          "name": "besondere Ausbringungstechnik   mit weiteren Angaben in Technische Anforderungen",
+          "links": []
+        },
+        {
+          "name": "verkürzte oder vorgegebene Ausbringungszeiten",
+          "links": []
+        },
+        {
+          "name": "reduzierte Düngungsmenge",
+          "links": []
+        },
+        {
+          "name": "Beschränkung auf spezifische Düngemittel",
+          "links": []
+        },
+        {
+          "name": "bitte um Unterstützung",
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "PflanzenschutzChoice",
+      "children": [
+        {
+          "name": "keine Angabe / ohne Einschränkung",
+          "links": []
+        },
+        {
+          "name": "integrierter Pflanzenschutz",
+          "links": []
+        },
+        {
+          "name": "gezielte Ausbringung von Nützlingen oder Pheromonen",
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.GL",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.Landschaftselement/Biotop o.Ä.",
+              "link": "disabling"
+            }
+          ]
+        },
+        {
+          "name": "chem. Pflanzenschutz, auf Einzelpflanzenbehandlung beschränkt",
+          "links": []
+        },
+        {
+          "name": "kein chem. Pflanzenschutz",
+          "links": []
+        },
+        {
+          "name": "Verzicht auf Herbizide",
+          "links": []
+        },
+        {
+          "name": "Verzicht auf Wachstumsregler",
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.AL",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.LF",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.DK/SK",
+              "link": "enabling"
+            }
+          ]
+        },
+        {
+          "name": "optionale Einschränkung",
+          "links": []
+        },
+        {
+          "name": "bitte um Unterstützung",
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "GruenlandtypChoice",
+      "children": [
+        {
+          "name": "keine Angabe",
+          "links": []
+        },
+        {
+          "name": "Wiese",
+          "links": []
+        },
+        {
+          "name": "Weide",
+          "links": []
+        },
+        {
+          "name": "Wiese/Weide ",
+          "links": []
+        },
+        {
+          "name": "Streuobst/-wiese/-bestand",
+          "links": []
+        },
+        {
+          "name": "Heide",
+          "links": []
+        },
+        {
+          "name": "Alm",
+          "links": []
+        },
+        {
+          "name": "Hutung",
+          "links": []
+        },
+        {
+          "name": "Feuchtgrünland",
+          "links": []
+        },
+        {
+          "name": "Magerrasen",
+          "links": []
+        },
+        {
+          "name": "bitte um Unterstützung",
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "TechnischeAnforderungenChoice",
+      "children": [
+        {
+          "name": "ohne",
+          "links": []
+        },
+        {
+          "name": "Reduzierter Reifendruck",
+          "links": []
+        },
+        {
+          "name": "Mulchen/Eggen",
+          "links": []
+        },
+        {
+          "name": "Direktsaat-/Mulchsaat-/Mulchpflanzverfahren",
+          "links": []
+        },
+        {
+          "name": "Besondere Mähtechnik, z. B: Messerbalken",
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.GL",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.LF",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.HFF",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.Landschaftselement/Biotop o.Ä.",
+              "link": "enabling"
+            }
+          ]
+        },
+        {
+          "name": "Besondere Weidetechnik ",
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.GL",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.LF",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.HFF",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.Landschaftselement/Biotop o.Ä.",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.GruenlandtypChoice.Wiese",
+              "link": "disabling"
+            }
+          ]
+        },
+        {
+          "name": "Vernässung, zumindest temporär ",
+          "links": [
+            {
+              "name": "choices.FoerderklasseChoice.Ökolandbau",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.FoerderklasseChoice.Tierschutz/Tierwohlmaßnahmen mit diesem als Hauptziel",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.m³ ",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.Kopf/Stück ",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.GV/GVE",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.RGV",
+              "link": "disabling"
+            }
+          ]
+        },
+        {
+          "name": "Einsatz stabilisierter Dünger ",
+          "links": [
+            {
+              "name": "choices.DuengungChoice.Beschränkung auf spezifische Düngemittel",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.FoerderklasseChoice.Ausgleichszulage",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.FoerderklasseChoice.Tierschutz/Tierwohlmaßnahmen mit diesem als Hauptziel",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Anlage/Pflege Struktur",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Nutzungsumwandlung",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Förderung bestimmter Rassen / Sorten / Kulturen",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.RGV",
+              "link": "disabling"
+            }
+          ]
+        },
+        {
+          "name": "standortangepasst/teilflächenspezifisch ",
+          "links": [
+            {
+              "name": "choices.FoerderklasseChoice.Tierschutz/Tierwohlmaßnahmen mit diesem als Hauptziel",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Förderung bestimmter Rassen / Sorten / Kulturen",
+              "link": "disabling"
+            }
+          ]
+        },
+        {
+          "name": "Analysen zur Düngungsplanung, z.B. Bodenuntersuchung/Frühjahres-Nmin-Analyse, Pflanzenanalysen, Wirtschaftsdünger- und Gärsubstratanalysen, Hoftorbilanzen, NIRS-Verfahren",
+          "links": [
+            {
+              "name": "choices.FoerderklasseChoice.Tierschutz/Tierwohlmaßnahmen mit diesem als Hauptziel",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Anlage/Pflege Struktur",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Flächenstilllegung/Brache",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Förderung bestimmter Rassen / Sorten / Kulturen",
+              "link": "disabling"
+            }
+          ]
+        },
+        {
+          "name": "Emissionsarme Ausbringungstechnik ",
+          "links": [
+            {
+              "name": "choices.DuengungChoice.besondere Ausbringungstechnik   mit weiteren Angaben in Technische Anforderungen",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Anlage/Pflege Struktur",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Flächenstilllegung/Brache",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Nutzungsumwandlung",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Förderung bestimmter Rassen / Sorten / Kulturen",
+              "link": "disabling"
+            }
+          ]
+        },
+        {
+          "name": "in Reihen ",
+          "links": [
+            {
+              "name": "choices.KategorieChoice.Anlage/Pflege Struktur",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Flächenstilllegung/Brache",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Förderung bestimmter Rassen / Sorten / Kulturen",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.GL",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.Landschaftselement/Biotop o.Ä.",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.Wald/Forst",
+              "link": "disabling"
+            }
+          ]
+        },
+        {
+          "name": "Aussaat/Anpflazung in weiter Reihe / doppeltem Reihenabstand / mit reduzierter Saatstärke/-menge",
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.AL",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.LF",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.DK/SK",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.HFF",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Anlage/Pflege Struktur",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Flächenstilllegung/Brache",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.m³ ",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.Kopf/Stück ",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.GV/GVE",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.RGV",
+              "link": "disabling"
+            }
+          ]
+        },
+        {
+          "name": "Aussaat/Anpflanzung mit enger Reihe",
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.AL",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.LF",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.DK/SK",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.HFF",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Anlage/Pflege Struktur",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Flächenstilllegung/Brache",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.m³ ",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.Kopf/Stück ",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.GV/GVE",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.RGV",
+              "link": "disabling"
+            }
+          ]
+        },
+        {
+          "name": "Dekanter",
+          "links": [
+            {
+              "name": "choices.DuengungChoice.besondere Ausbringungstechnik   mit weiteren Angaben in Technische Anforderungen",
+              "link": "enabling"
+            }
+          ]
+        },
+        {
+          "name": "bitte um Unterstützung",
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "PflanzenartOderAnzahlArtenChoice",
+      "children": [
+        {
+          "name": "keine/ohne",
+          "links": []
+        },
+        {
+          "name": "Blühmischung konkret vorgegeben",
+          "links": [
+            {
+              "name": "choices.KategorieChoice.Anbau Zwischenfrucht/Untersaat",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Anlage/Pflege Struktur",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Extensivierung",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Flächenstilllegung/Brache",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Nutzungsumwandlung",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            }
+          ]
+        },
+        {
+          "name": "Blühmischung mit Optionen vorgegeben ",
+          "links": [
+            {
+              "name": "choices.KategorieChoice.Anbau Zwischenfrucht/Untersaat",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Anlage/Pflege Struktur",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Extensivierung",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Flächenstilllegung/Brache",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Nutzungsumwandlung",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            }
+          ]
+        },
+        {
+          "name": "<=4-gliedrige Fruchtfolge",
+          "links": [
+            {
+              "name": "choices.KategorieChoice.Extensivierung",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Nutzungsumwandlung",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Förderung bestimmter Rassen / Sorten / Kulturen",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.AL",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.LF",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.HFF",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            }
+          ]
+        },
+        {
+          "name": ">=5-gliedrige Fruchtfolge",
+          "links": [
+            {
+              "name": "choices.KategorieChoice.Extensivierung",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Nutzungsumwandlung",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Förderung bestimmter Rassen / Sorten / Kulturen",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.AL",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.LF",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.HFF",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            }
+          ]
+        },
+        {
+          "name": "vorgegebene Anzahl von Kulturen, die zeitgleich angebaut werden müssen",
+          "links": [
+            {
+              "name": "choices.KategorieChoice.Extensivierung",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Nutzungsumwandlung",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Förderung bestimmter Rassen / Sorten / Kulturen",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.AL",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.LF",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.HFF",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            }
+          ]
+        },
+        {
+          "name": "Fruchtfolge mit Bracheanteil",
+          "links": [
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Anbau Zwischenfrucht/Untersaat",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Düngemanagement",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.Wald/Forst",
+              "link": "disabling"
+            }
+          ]
+        },
+        {
+          "name": "weitere/andere Fruchtfolgen",
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.AL",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.LF",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.DK/SK",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.HFF",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Anlage/Pflege Struktur",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Nutzungsumwandlung",
+              "link": "disabling"
+            }
+          ]
+        },
+        {
+          "name": "seltene Kulturen",
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.AL",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.LF",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.DK/SK",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.HFF",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Anbau Zwischenfrucht/Untersaat",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Düngemanagement",
+              "link": "disabling"
+            }
+          ]
+        },
+        {
+          "name": "Leguminosen",
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.AL",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.LF",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.HFF",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Anbau Zwischenfrucht/Untersaat",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Düngemanagement",
+              "link": "disabling"
+            }
+          ]
+        },
+        {
+          "name": "Zwischenfrucht",
+          "links": [
+            {
+              "name": "choices.KategorieChoice.Anbau Zwischenfrucht/Untersaat",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.AL",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.LF",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.DK/SK",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.HFF",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            }
+          ]
+        },
+        {
+          "name": "Untersaat",
+          "links": [
+            {
+              "name": "choices.KategorieChoice.Anbau Zwischenfrucht/Untersaat",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.AL",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.LF",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.DK/SK",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.HFF",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            }
+          ]
+        },
+        {
+          "name": "Grünland/Feldgraseinsaat/-Anlage",
+          "links": [
+            {
+              "name": "choices.FoerderklasseChoice.Vertragsnaturschutz",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.FoerderklasseChoice.Agrarumwelt- und Klimamaßnahmen AUKM",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Extensivierung",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Flächenstilllegung/Brache",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Nutzungsumwandlung",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.DK/SK",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.Wald/Forst",
+              "link": "disabling"
+            }
+          ]
+        },
+        {
+          "name": "Nachweis von Kennarten",
+          "links": [
+            {
+              "name": "choices.FoerderklasseChoice.Vertragsnaturschutz",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.FoerderklasseChoice.Agrarumwelt- und Klimamaßnahmen AUKM",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.GL",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.Landschaftselement/Biotop o.Ä.",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Anbau Zwischenfrucht/Untersaat",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Düngemanagement",
+              "link": "disabling"
+            }
+          ]
+        },
+        {
+          "name": "bitte um Unterstützung",
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "VorgabeArtMischungSaatgutChoice",
+      "children": [
+        {
+          "name": "keine/ohne",
+          "links": [
+            {
+              "name": "choices.PflanzenartOderAnzahlArtenChoice.Blühmischung konkret vorgegeben",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.PflanzenartOderAnzahlArtenChoice.Blühmischung mit Optionen vorgegeben ",
+              "link": "disabling"
+            }
+          ]
+        },
+        {
+          "name": "Regiosaat",
+          "links": [
+            {
+              "name": "choices.PflanzenartOderAnzahlArtenChoice.Blühmischung konkret vorgegeben",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.PflanzenartOderAnzahlArtenChoice.Blühmischung mit Optionen vorgegeben ",
+              "link": "enabling"
+            }
+          ]
+        },
+        {
+          "name": "Wildpflanzen",
+          "links": [
+            {
+              "name": "choices.PflanzenartOderAnzahlArtenChoice.Blühmischung konkret vorgegeben",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.PflanzenartOderAnzahlArtenChoice.Blühmischung mit Optionen vorgegeben ",
+              "link": "enabling"
+            }
+          ]
+        },
+        {
+          "name": "Kulturarten",
+          "links": [
+            {
+              "name": "choices.PflanzenartOderAnzahlArtenChoice.Grünland/Feldgraseinsaat/-Anlage",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.PflanzenartOderAnzahlArtenChoice.Nachweis von Kennarten",
+              "link": "disabling"
+            }
+          ]
+        },
+        {
+          "name": "ohne Leguminosen",
+          "links": [
+            {
+              "name": "choices.PflanzenartOderAnzahlArtenChoice.Grünland/Feldgraseinsaat/-Anlage",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.PflanzenartOderAnzahlArtenChoice.Nachweis von Kennarten",
+              "link": "disabling"
+            }
+          ]
+        },
+        {
+          "name": "kleinkörnige Leguminosen",
+          "links": [
+            {
+              "name": "choices.PflanzenartOderAnzahlArtenChoice.Leguminosen",
+              "link": "enabling"
+            }
+          ]
+        },
+        {
+          "name": "winterhart ",
+          "links": [
+            {
+              "name": "choices.PflanzenartOderAnzahlArtenChoice.Zwischenfrucht",
+              "link": "enabling"
+            }
+          ]
+        },
+        {
+          "name": "abfrierend ",
+          "links": [
+            {
+              "name": "choices.PflanzenartOderAnzahlArtenChoice.Zwischenfrucht",
+              "link": "enabling"
+            }
+          ]
+        },
+        {
+          "name": "bitte um Unterstützung",
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "VerwendungBestimmterTierartChoice",
+      "children": [
+        {
+          "name": "keine/ohne",
+          "links": []
+        },
+        {
+          "name": "Schafe",
+          "links": []
+        },
+        {
+          "name": "Ziegen",
+          "links": []
+        },
+        {
+          "name": "Wasserbüffel",
+          "links": []
+        },
+        {
+          "name": "Schweine",
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.GL",
+              "link": "disabling"
+            }
+          ]
+        },
+        {
+          "name": "Geflügel",
+          "links": []
+        },
+        {
+          "name": "Rinder ohne Milchkühe",
+          "links": []
+        },
+        {
+          "name": "Milchkühe",
+          "links": []
+        },
+        {
+          "name": "Pferde",
+          "links": []
+        },
+        {
+          "name": "Bienen",
+          "links": []
+        },
+        {
+          "name": "bitte um Unterstützung",
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "AusschlussChoice",
+      "children": [
+        {
+          "name": "keine/ohne",
+          "links": []
+        },
+        {
+          "name": "Silage ",
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.GL",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.LF",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.HFF",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Anbau Zwischenfrucht/Untersaat",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Förderung bestimmter Rassen / Sorten / Kulturen",
+              "link": "disabling"
+            }
+          ]
+        },
+        {
+          "name": "Herbstumbruch",
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.AL",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.LF",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.HFF",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Förderung bestimmter Rassen / Sorten / Kulturen",
+              "link": "disabling"
+            }
+          ]
+        },
+        {
+          "name": "Kulturen/Kulturgruppen/Kulturmischungen",
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.AL",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.LF",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.HFF",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Anbau Zwischenfrucht/Untersaat",
+              "link": "disabling"
+            }
+          ]
+        },
+        {
+          "name": "bitte um Unterstützung",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,76 @@
+
 {
   "name": "choices",
   "children": [
+    {
+      "name": "BundeslandChoice",
+      "children": [
+        {
+          "name": "Baden-Württemberg",
+          "links": []
+        },
+        {
+          "name": "Bayern",
+          "links": []
+        },
+        {
+          "name": "Berlin",
+          "links": []
+        },
+        {
+          "name": "Brandenburg",
+          "links": []
+        },
+        {
+          "name": "Bremen",
+          "links": []
+        },
+        {
+          "name": "Hamburg",
+          "links": []
+        },
+        {
+          "name": "Hessen",
+          "links": []
+        },
+        {
+          "name": "Mecklenburg-Vorpommern",
+          "links": []
+        },
+        {
+          "name": "Niedersachsen",
+          "links": []
+        },
+        {
+          "name": "Nordrhein-Westfalen",
+          "links": []
+        },
+        {
+          "name": "Rheinland-Pfalz",
+          "links": []
+        },
+        {
+          "name": "Saarland",
+          "links": []
+        },
+        {
+          "name": "Sachsen",
+          "links": []
+        },
+        {
+          "name": "Sachsen-Anhalt",
+          "links": []
+        },
+        {
+          "name": "Schleswig-Holstein",
+          "links": []
+        },
+        {
+          "name": "Thüringen",
+          "links": []
+        }
+      ]
+    },
     {
       "name": "FoerderklasseChoice",
       "children": [
@@ -30,6 +100,23 @@
         },
         {
           "name": "bitte um Unterstützung",
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "FoerderhoeheVariabilitaetChoice",
+      "children": [
+        {
+          "name": "nein, feste Förderhöhe",
+          "links": []
+        },
+        {
+          "name": "Grundbetrag einer Förderhöhe ist angegeben, kann aber abweichen wenn die Maßnahme kombiniert wird oder aus anderen Gründen",
+          "links": []
+        },
+        {
+          "name": "keine einheitliche Förderhöhe angegeben, beispielsweise unterschiedliche Förderhöhen in einer Komplexmaßnahme",
           "links": []
         }
       ]
@@ -110,6 +197,27 @@
               "link": "disabling"
             }
           ]
+        },
+        {
+          "name": "bitte um Unterstützung",
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "UmsetzungsebeneChoice",
+      "children": [
+        {
+          "name": "Einzelfläche",
+          "links": []
+        },
+        {
+          "name": "Betriebszweig",
+          "links": []
+        },
+        {
+          "name": "Gesamtbetrieb",
+          "links": []
         },
         {
           "name": "bitte um Unterstützung",
@@ -389,6 +497,172 @@
       ]
     },
     {
+      "name": "KomplexMassnahmeChoice",
+      "children": [
+        {
+          "name": "nicht unterteilte Maßnahme ",
+          "links": []
+        },
+        {
+          "name": "Komplexmaßnahme ",
+          "links": []
+        },
+        {
+          "name": "Variante einer Komplexmaßnahme",
+          "links": []
+        },
+        {
+          "name": "bitte um Unterstützung",
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "TopUpOderBasisMassnahmeChoice",
+      "children": [
+        {
+          "name": "nicht unterteilte Maßnahme ",
+          "links": []
+        },
+        {
+          "name": "Basis-Maßnahme",
+          "links": []
+        },
+        {
+          "name": "Top-Up-Maßnahme",
+          "links": []
+        },
+        {
+          "name": "bitte um Unterstützung",
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "KombinierbarkeitMitAnderenMassnahmenChoice",
+      "children": [
+        {
+          "name": "Nein",
+          "links": []
+        },
+        {
+          "name": "Greening/ÖVF  bzw. Ökoregelung für Förderperiode ab 2023",
+          "links": []
+        },
+        {
+          "name": "AUKM",
+          "links": []
+        },
+        {
+          "name": "Andere ",
+          "links": []
+        },
+        {
+          "name": "bitte um Unterstützung",
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "ZielsetzungLandChoice",
+      "children": [
+        {
+          "name": "keine Angabe/Vorgabe",
+          "links": []
+        },
+        {
+          "name": "Bodenschutz",
+          "links": []
+        },
+        {
+          "name": "Gewässerschutz",
+          "links": []
+        },
+        {
+          "name": "Spezieller Artenschutz",
+          "links": []
+        },
+        {
+          "name": "Biodiversität",
+          "links": []
+        },
+        {
+          "name": "Erhöhung der Strukturvielfalt",
+          "links": []
+        },
+        {
+          "name": "Erhaltung genetischer Ressourcen ",
+          "links": []
+        },
+        {
+          "name": "Tierschutz/Maßnahmen zum Tierwohl im Betrieb",
+          "links": []
+        },
+        {
+          "name": "Klima",
+          "links": []
+        },
+        {
+          "name": "bitte um Unterstützung",
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "BeratungChoice",
+      "children": [
+        {
+          "name": "keine Angabe/ohne obligate Beratung",
+          "links": []
+        },
+        {
+          "name": "obligate Beratung ",
+          "links": []
+        },
+        {
+          "name": "bitte um Unterstützung",
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "RaumlichDefinierteKulisseChoice",
+      "children": [
+        {
+          "name": "ohne",
+          "links": []
+        },
+        {
+          "name": "Naturschutzgebiete i. w. S. ",
+          "links": []
+        },
+        {
+          "name": "Wasserschutzgebiete ",
+          "links": []
+        },
+        {
+          "name": "Bodenschutzgebiete ",
+          "links": []
+        },
+        {
+          "name": "Almen / Berglagen / Ungunstlagen",
+          "links": []
+        },
+        {
+          "name": "Moorstandorte / Feuchtgebiete / organische Böden",
+          "links": []
+        },
+        {
+          "name": "andere räumliche Definition",
+          "links": []
+        },
+        {
+          "name": "bitte um Unterstützung",
+          "links": []
+        }
+      ]
+    },
+    {
       "name": "InhaltlichDefinierteKulisseChoice",
       "children": [
         {
@@ -422,6 +696,31 @@
         },
         {
           "name": "Habitate / Zielarten ",
+          "links": []
+        },
+        {
+          "name": "bitte um Unterstützung",
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "ZuweisungErlaeuterungThematischeKulisseChoice",
+      "children": [
+        {
+          "name": "nicht zu / nicht bei",
+          "links": []
+        },
+        {
+          "name": "vor",
+          "links": []
+        },
+        {
+          "name": "zu / bei",
+          "links": []
+        },
+        {
+          "name": "nach",
           "links": []
         },
         {
@@ -580,6 +879,60 @@
               "link": "enabling"
             }
           ]
+        },
+        {
+          "name": "bitte um Unterstützung",
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "MengenVorgabeVorzeichenChoice",
+      "children": [
+        {
+          "name": "NA",
+          "links": []
+        },
+        {
+          "name": "<",
+          "links": []
+        },
+        {
+          "name": ">",
+          "links": []
+        },
+        {
+          "name": "=",
+          "links": []
+        },
+        {
+          "name": "<=",
+          "links": []
+        },
+        {
+          "name": ">=",
+          "links": []
+        },
+        {
+          "name": "bitte um Unterstützung",
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "MengenVorgabenZaehlerChoice",
+      "children": [
+        {
+          "name": "NA",
+          "links": []
+        },
+        {
+          "name": "GV",
+          "links": []
+        },
+        {
+          "name": "RGV",
+          "links": []
         },
         {
           "name": "bitte um Unterstützung",
@@ -804,6 +1157,43 @@
       ]
     },
     {
+      "name": "DuengungArtChoice",
+      "children": [
+        {
+          "name": "keine Angabe",
+          "links": []
+        },
+        {
+          "name": "organisch, tierisch und flüssig: z.B. Gülle",
+          "links": []
+        },
+        {
+          "name": "organisch, tierisch, fest: Festmist",
+          "links": []
+        },
+        {
+          "name": "organisch, pflanzlich: Gärrest",
+          "links": []
+        },
+        {
+          "name": "organisch: nicht differenziert oder mehreres betreffend",
+          "links": []
+        },
+        {
+          "name": "mineralisch",
+          "links": []
+        },
+        {
+          "name": "organisch und mineralisch",
+          "links": []
+        },
+        {
+          "name": "bitte um Unterstützung",
+          "links": []
+        }
+      ]
+    },
+    {
       "name": "PflanzenschutzChoice",
       "children": [
         {
@@ -907,6 +1297,154 @@
         },
         {
           "name": "Magerrasen",
+          "links": []
+        },
+        {
+          "name": "bitte um Unterstützung",
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "GruenlandBewirtschaftungsVorgabenChoice",
+      "children": [
+        {
+          "name": "keine Angabe",
+          "links": []
+        },
+        {
+          "name": "einschürige Wiese ",
+          "links": []
+        },
+        {
+          "name": "einschürige Wiese  mit darauf folgender obligater Beweidung",
+          "links": []
+        },
+        {
+          "name": "kein Umbruch ",
+          "links": []
+        },
+        {
+          "name": "kein Walzen",
+          "links": []
+        },
+        {
+          "name": "bitte um Unterstützung",
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "VertragslaufzeitChoice",
+      "children": [
+        {
+          "name": "keine Struktur",
+          "links": []
+        },
+        {
+          "name": "1 Jahr",
+          "links": []
+        },
+        {
+          "name": "2 Jahre",
+          "links": []
+        },
+        {
+          "name": "3 Jahre",
+          "links": []
+        },
+        {
+          "name": "4 Jahre",
+          "links": []
+        },
+        {
+          "name": "5 Jahre",
+          "links": []
+        },
+        {
+          "name": "<= 5 Jahre ",
+          "links": []
+        },
+        {
+          "name": "<= 10 Jahre",
+          "links": []
+        },
+        {
+          "name": "<= 20 Jahre",
+          "links": []
+        },
+        {
+          "name": "nicht angegeben",
+          "links": []
+        },
+        {
+          "name": "bitte um Unterstützung",
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "StrukturartChoice",
+      "children": [
+        {
+          "name": "keine Struktur",
+          "links": []
+        },
+        {
+          "name": "Gehölz/Hecke",
+          "links": []
+        },
+        {
+          "name": "Blühfläche/-streifen/Brache und andere Saumstrukturen",
+          "links": []
+        },
+        {
+          "name": "Graben",
+          "links": []
+        },
+        {
+          "name": "Vernässung",
+          "links": []
+        },
+        {
+          "name": "Gewässerschutzstreifen ",
+          "links": []
+        },
+        {
+          "name": "Biotop",
+          "links": []
+        },
+        {
+          "name": "Streuobst/-wiese/-bestand",
+          "links": []
+        },
+        {
+          "name": "Steinmauer, Lesesteinhaufen",
+          "links": []
+        },
+        {
+          "name": "Trockenrasen, Heide etc.",
+          "links": []
+        },
+        {
+          "name": "Strukturelemente nicht definiert \"",
+          "links": []
+        },
+        {
+          "name": "bitte um Unterstützung",
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "LagetreueChoice",
+      "children": [
+        {
+          "name": "jährlich variabel",
+          "links": []
+        },
+        {
+          "name": "Lagetreu über den Verpflichtungszeitraum",
           "links": []
         },
         {
@@ -1880,6 +2418,205 @@
         },
         {
           "name": "bitte um Unterstützung",
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "AusschlussKonkretisierungChoice",
+      "children": [
+        {
+          "name": "keine/ohne",
+          "links": []
+        },
+        {
+          "name": "alle ausgeschlossen",
+          "links": []
+        },
+        {
+          "name": "Raps",
+          "links": []
+        },
+        {
+          "name": "Mais",
+          "links": []
+        },
+        {
+          "name": "Kartoffeln",
+          "links": []
+        },
+        {
+          "name": "Winterweizen",
+          "links": []
+        },
+        {
+          "name": "Leguminosen ",
+          "links": []
+        },
+        {
+          "name": "großkörnige Leguminosen",
+          "links": []
+        },
+        {
+          "name": "Sonderkulturen",
+          "links": []
+        },
+        {
+          "name": "Gemüse",
+          "links": []
+        },
+        {
+          "name": "bitte um Unterstützung",
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "PflegeartChoice",
+      "children": [
+        {
+          "name": "Neuanlage zu Beginn der Verpflichtung",
+          "links": []
+        },
+        {
+          "name": "Pflege im Verpflichtungszeitraum",
+          "links": []
+        },
+        {
+          "name": "regelmäßige Neuanlage im Verpflichtungszeitraum ",
+          "links": []
+        },
+        {
+          "name": "bitte um Unterstützung",
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "PflegeHaeufigkeitChoice",
+      "children": [
+        {
+          "name": "keine Pflege",
+          "links": []
+        },
+        {
+          "name": "einmalige Pflege bestehender Strukturen",
+          "links": []
+        },
+        {
+          "name": "jährliche Pflege bestehender Strukturen",
+          "links": []
+        },
+        {
+          "name": "zeitlich und räumliche Staffelung",
+          "links": []
+        },
+        {
+          "name": "Pflegerhytmus nicht definiert",
+          "links": []
+        },
+        {
+          "name": "bitte um Unterstützung",
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "HonorierungChoice",
+      "children": [
+        {
+          "name": "Differenziert nach Standort / Lagebasiert",
+          "links": []
+        },
+        {
+          "name": "Differenziert nach Umsetzungsumfang / gestaffelt nach Flächengröße",
+          "links": []
+        },
+        {
+          "name": "Einheitsprämie",
+          "links": []
+        },
+        {
+          "name": "Ergebnisorientiert",
+          "links": []
+        },
+        {
+          "name": "Handlungsorientiert",
+          "links": []
+        },
+        {
+          "name": "Investitionsförderung",
+          "links": []
+        },
+        {
+          "name": "maktorientierter Ausgleich",
+          "links": []
+        },
+        {
+          "name": "ertragsorientierte/ertragsmesszahlbasierte Auszahlung",
+          "links": []
+        },
+        {
+          "name": "kooperative Förderung",
+          "links": []
+        },
+        {
+          "name": "bitte um Unterstützung",
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "YesOrNoChoice",
+      "children": [
+        {
+          "name": "Ja",
+          "links": []
+        },
+        {
+          "name": "Nein",
+          "links": []
+        },
+        {
+          "name": "bitte um Unterstützung",
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "AbfolgeStaffelungChoice",
+      "children": [
+        {
+          "name": "keine/ohne",
+          "links": []
+        },
+        {
+          "name": "zeitliche Staffelung von Arbeitsschritten z.B. Bodenbearbeitung innerhalb von 24h nach organischer Düngung",
+          "links": []
+        },
+        {
+          "name": "zeitliche Vermeidung/Ausschluss von Arbeitsschritten z.B. keine Bodenbearbeitung nach",
+          "links": []
+        },
+        {
+          "name": "bitte um Unterstützung",
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "LetzterStatus",
+      "children": [
+        {
+          "name": "in Bearbeitung",
+          "links": []
+        },
+        {
+          "name": "Rücksprache",
+          "links": []
+        },
+        {
+          "name": "abgeschlossen",
           "links": []
         }
       ]

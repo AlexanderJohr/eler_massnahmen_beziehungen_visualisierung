@@ -4,6 +4,7 @@
   "children": [
     {
       "name": "BundeslandChoice",
+      "listName": "Bundesland",
       "children": [
         {
           "name": "Baden-Württemberg",
@@ -69,10 +70,12 @@
           "name": "Thüringen",
           "links": []
         }
-      ]
+      ],
+      "links": []
     },
     {
       "name": "FoerderklasseChoice",
+      "listName": "Förderklasse",
       "children": [
         {
           "name": "Ökolandbau",
@@ -102,10 +105,12 @@
           "name": "bitte um Unterstützung",
           "links": []
         }
-      ]
+      ],
+      "links": []
     },
     {
       "name": "FoerderhoeheVariabilitaetChoice",
+      "listName": "Variabilität der Förderhöhe",
       "children": [
         {
           "name": "nein, feste Förderhöhe",
@@ -119,10 +124,12 @@
           "name": "keine einheitliche Förderhöhe angegeben, beispielsweise unterschiedliche Förderhöhen in einer Komplexmaßnahme",
           "links": []
         }
-      ]
+      ],
+      "links": []
     },
     {
       "name": "KategorieChoice",
+      "listName": "Kategorie",
       "children": [
         {
           "name": "Anbau Zwischenfrucht/Untersaat",
@@ -202,10 +209,12 @@
           "name": "bitte um Unterstützung",
           "links": []
         }
-      ]
+      ],
+      "links": []
     },
     {
       "name": "UmsetzungsebeneChoice",
+      "listName": "Umsetzungsebene",
       "children": [
         {
           "name": "Einzelfläche",
@@ -223,10 +232,12 @@
           "name": "bitte um Unterstützung",
           "links": []
         }
-      ]
+      ],
+      "links": []
     },
     {
       "name": "ZielflaecheChoice",
+      "listName": "Zielfläche",
       "children": [
         {
           "name": "keine Angabe/Vorgabe",
@@ -320,10 +331,12 @@
           "name": "bitte um Unterstützung",
           "links": []
         }
-      ]
+      ],
+      "links": []
     },
     {
       "name": "ZieleinheitChoice",
+      "listName": "Zieleinheit",
       "children": [
         {
           "name": "keine Angabe/Vorgabe",
@@ -494,10 +507,12 @@
           "name": "bitte um Unterstützung",
           "links": []
         }
-      ]
+      ],
+      "links": []
     },
     {
       "name": "KomplexMassnahmeChoice",
+      "listName": "Komplex Maßnahme",
       "children": [
         {
           "name": "nicht unterteilte Maßnahme ",
@@ -515,10 +530,12 @@
           "name": "bitte um Unterstützung",
           "links": []
         }
-      ]
+      ],
+      "links": []
     },
     {
       "name": "TopUpOderBasisMassnahmeChoice",
+      "listName": "Top-Up- oder Basis-Massnahme",
       "children": [
         {
           "name": "nicht unterteilte Maßnahme ",
@@ -536,10 +553,12 @@
           "name": "bitte um Unterstützung",
           "links": []
         }
-      ]
+      ],
+      "links": []
     },
     {
       "name": "KombinierbarkeitMitAnderenMassnahmenChoice",
+      "listName": "Kombinierbar mit anderen Massnahmen",
       "children": [
         {
           "name": "Nein",
@@ -561,10 +580,12 @@
           "name": "bitte um Unterstützung",
           "links": []
         }
-      ]
+      ],
+      "links": []
     },
     {
       "name": "ZielsetzungLandChoice",
+      "listName": "Hauptzielsetzung Land",
       "children": [
         {
           "name": "keine Angabe/Vorgabe",
@@ -606,10 +627,59 @@
           "name": "bitte um Unterstützung",
           "links": []
         }
-      ]
+      ],
+      "links": []
+    },
+    {
+      "name": "ZielsetzungLandChoice",
+      "listName": "Nebenziele",
+      "children": [
+        {
+          "name": "keine Angabe/Vorgabe",
+          "links": []
+        },
+        {
+          "name": "Bodenschutz",
+          "links": []
+        },
+        {
+          "name": "Gewässerschutz",
+          "links": []
+        },
+        {
+          "name": "Spezieller Artenschutz",
+          "links": []
+        },
+        {
+          "name": "Biodiversität",
+          "links": []
+        },
+        {
+          "name": "Erhöhung der Strukturvielfalt",
+          "links": []
+        },
+        {
+          "name": "Erhaltung genetischer Ressourcen ",
+          "links": []
+        },
+        {
+          "name": "Tierschutz/Maßnahmen zum Tierwohl im Betrieb",
+          "links": []
+        },
+        {
+          "name": "Klima",
+          "links": []
+        },
+        {
+          "name": "bitte um Unterstützung",
+          "links": []
+        }
+      ],
+      "links": []
     },
     {
       "name": "BeratungChoice",
+      "listName": "Beratung",
       "children": [
         {
           "name": "keine Angabe/ohne obligate Beratung",
@@ -623,10 +693,12 @@
           "name": "bitte um Unterstützung",
           "links": []
         }
-      ]
+      ],
+      "links": []
     },
     {
       "name": "RaumlichDefinierteKulisseChoice",
+      "listName": "räumlich definierte Kulisse",
       "children": [
         {
           "name": "ohne",
@@ -660,10 +732,12 @@
           "name": "bitte um Unterstützung",
           "links": []
         }
-      ]
+      ],
+      "links": []
     },
     {
       "name": "InhaltlichDefinierteKulisseChoice",
+      "listName": "inhaltlich definierte Kulisse",
       "children": [
         {
           "name": "ohne",
@@ -702,10 +776,12 @@
           "name": "bitte um Unterstützung",
           "links": []
         }
-      ]
+      ],
+      "links": []
     },
     {
       "name": "ZuweisungErlaeuterungThematischeKulisseChoice",
+      "listName": "Zuweisung für Erläuterung inhaltlich Flächendefinition \"thematische Kulisse\" ",
       "children": [
         {
           "name": "nicht zu / nicht bei",
@@ -727,10 +803,12 @@
           "name": "bitte um Unterstützung",
           "links": []
         }
-      ]
+      ],
+      "links": []
     },
     {
       "name": "NutzungsausschlussChoice",
+      "listName": "Nutzungsausschluss",
       "children": [
         {
           "name": "keine Angabe ",
@@ -760,15 +838,13 @@
         {
           "name": "ausschließlich Schröpfschnitt erlaubt",
           "links": []
-        },
-        {
-          "name": "bitte um Unterstützung",
-          "links": []
         }
-      ]
+      ],
+      "links": []
     },
     {
       "name": "BetroffeneFruchtChoice",
+      "listName": "betroffene Frucht",
       "children": [
         {
           "name": "keine",
@@ -816,10 +892,12 @@
           "name": "bitte um Unterstützung",
           "links": []
         }
-      ]
+      ],
+      "links": []
     },
     {
       "name": "TierbestandsvorgabeChoice",
+      "listName": "Tierbestandsvorgabe",
       "children": [
         {
           "name": "ohne",
@@ -837,10 +915,6 @@
               "link": "disabling"
             }
           ]
-        },
-        {
-          "name": "verzögerter Auftrieb/Weidebeginn oder vorgezogener Abtrieb/Weidegangende",
-          "links": []
         },
         {
           "name": "Gezielte Auswahl der Tierart/Rasse --> s. Spalte 'besondere Kultur- oder Tierart'",
@@ -884,10 +958,12 @@
           "name": "bitte um Unterstützung",
           "links": []
         }
-      ]
+      ],
+      "links": []
     },
     {
       "name": "MengenVorgabeVorzeichenChoice",
+      "listName": "Vorzeichen",
       "children": [
         {
           "name": "NA",
@@ -917,10 +993,12 @@
           "name": "bitte um Unterstützung",
           "links": []
         }
-      ]
+      ],
+      "links": []
     },
     {
       "name": "MengenVorgabenZaehlerChoice",
+      "listName": "Zähler der Einheit",
       "children": [
         {
           "name": "NA",
@@ -938,10 +1016,12 @@
           "name": "bitte um Unterstützung",
           "links": []
         }
-      ]
+      ],
+      "links": []
     },
     {
       "name": "MengenVorgabenNennerChoice",
+      "listName": "Nenner der Einheit",
       "children": [
         {
           "name": "NA",
@@ -962,6 +1042,19 @@
           ]
         },
         {
+          "name": "ha HFF",
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.LF",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.HFF",
+              "link": "enabling"
+            }
+          ]
+        },
+        {
           "name": "ha GL",
           "links": [
             {
@@ -973,10 +1066,6 @@
               "link": "enabling"
             }
           ]
-        },
-        {
-          "name": "bitte um Unterstützung",
-          "links": []
         },
         {
           "name": "ha",
@@ -1057,18 +1146,166 @@
             }
           ]
         }
-      ]
+      ],
+      "links": []
+    },
+    {
+      "name": "MengenVorgabenNennerChoice",
+      "listName": "Nenner der Einheit",
+      "children": [
+        {
+          "name": "NA",
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.keine Angabe/Vorgabe",
+              "link": "enabling"
+            }
+          ]
+        },
+        {
+          "name": "ha LF",
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.LF",
+              "link": "enabling"
+            }
+          ]
+        },
+        {
+          "name": "ha HFF",
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.LF",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.HFF",
+              "link": "enabling"
+            }
+          ]
+        },
+        {
+          "name": "ha GL",
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.GL",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.LF",
+              "link": "enabling"
+            }
+          ]
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "MengenVorgabenNennerChoice",
+      "listName": "Nenner der Einheit für Düngung",
+      "children": [
+        {
+          "name": "NA",
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.keine Angabe/Vorgabe",
+              "link": "enabling"
+            }
+          ]
+        },
+        {
+          "name": "ha LF",
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.LF",
+              "link": "enabling"
+            }
+          ]
+        },
+        {
+          "name": "ha HFF",
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.LF",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.HFF",
+              "link": "enabling"
+            }
+          ]
+        },
+        {
+          "name": "ha GL",
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.GL",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.LF",
+              "link": "enabling"
+            }
+          ]
+        },
+        {
+          "name": "ha",
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.keine Angabe/Vorgabe",
+              "link": "disabling"
+            }
+          ]
+        },
+        {
+          "name": "ha HFF",
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.LF",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.HFF",
+              "link": "enabling"
+            }
+          ]
+        },
+        {
+          "name": "ha AL",
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.AL",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.LF",
+              "link": "enabling"
+            }
+          ]
+        }
+      ],
+      "links": []
     },
     {
       "name": "BodenbearbeitungChoice",
+      "listName": "Bodenbearbeitung",
       "children": [
         {
           "name": "keine Angabe/ohne Einschränkung",
-          "links": []
+          "links": [
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            }
+          ]
         },
         {
           "name": "reduzierte Bodenbearbeitung MIT spezifischer/besonderer Bearbeitungstechnik",
           "links": [
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            },
             {
               "name": "choices.ZielflaecheChoice.Wald/Forst",
               "link": "disabling"
@@ -1087,6 +1324,10 @@
           "name": "reduzierte Bodenbearbeitung OHNE spezifische/besondere Bearbeitungstechnik",
           "links": [
             {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            },
+            {
               "name": "choices.ZielflaecheChoice.Wald/Forst",
               "link": "disabling"
             },
@@ -1102,7 +1343,12 @@
         },
         {
           "name": "Verbot der Bodenbearbeitung",
-          "links": []
+          "links": [
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            }
+          ]
         },
         {
           "name": "Grünlanderneuerung, flachwendend",
@@ -1114,87 +1360,192 @@
             {
               "name": "choices.ZielflaecheChoice.LF",
               "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
             }
           ]
         },
         {
           "name": "bitte um Unterstützung",
-          "links": []
+          "links": [
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "name": "choices.ZieleinheitChoice.ha",
+          "link": "enabling"
         }
       ]
     },
     {
       "name": "DuengungChoice",
+      "listName": "Düngung",
       "children": [
         {
           "name": "keine Angabe / ohne Einschränkung",
-          "links": []
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.Wald/Forst",
+              "link": "disabling"
+            }
+          ]
         },
         {
           "name": "keine Düngung",
-          "links": []
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.Wald/Forst",
+              "link": "disabling"
+            }
+          ]
         },
         {
           "name": "besondere Ausbringungstechnik   mit weiteren Angaben in Technische Anforderungen",
-          "links": []
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.Wald/Forst",
+              "link": "disabling"
+            }
+          ]
         },
         {
           "name": "verkürzte oder vorgegebene Ausbringungszeiten",
-          "links": []
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.Wald/Forst",
+              "link": "disabling"
+            }
+          ]
         },
         {
           "name": "reduzierte Düngungsmenge",
-          "links": []
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.Wald/Forst",
+              "link": "disabling"
+            }
+          ]
         },
         {
           "name": "Beschränkung auf spezifische Düngemittel",
-          "links": []
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.Wald/Forst",
+              "link": "disabling"
+            }
+          ]
         },
         {
           "name": "bitte um Unterstützung",
-          "links": []
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.Wald/Forst",
+              "link": "disabling"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "name": "choices.ZielflaecheChoice.Wald/Forst",
+          "link": "disabling"
         }
       ]
     },
     {
       "name": "DuengungArtChoice",
+      "listName": "Düngung Art",
       "children": [
         {
           "name": "keine Angabe",
-          "links": []
+          "links": [
+            {
+              "name": "choices.DuengungChoice.Beschränkung auf spezifische Düngemittel",
+              "link": "enabling"
+            }
+          ]
         },
         {
           "name": "organisch, tierisch und flüssig: z.B. Gülle",
-          "links": []
+          "links": [
+            {
+              "name": "choices.DuengungChoice.Beschränkung auf spezifische Düngemittel",
+              "link": "enabling"
+            }
+          ]
         },
         {
           "name": "organisch, tierisch, fest: Festmist",
-          "links": []
+          "links": [
+            {
+              "name": "choices.DuengungChoice.Beschränkung auf spezifische Düngemittel",
+              "link": "enabling"
+            }
+          ]
         },
         {
           "name": "organisch, pflanzlich: Gärrest",
-          "links": []
+          "links": [
+            {
+              "name": "choices.DuengungChoice.Beschränkung auf spezifische Düngemittel",
+              "link": "enabling"
+            }
+          ]
         },
         {
           "name": "organisch: nicht differenziert oder mehreres betreffend",
-          "links": []
+          "links": [
+            {
+              "name": "choices.DuengungChoice.Beschränkung auf spezifische Düngemittel",
+              "link": "enabling"
+            }
+          ]
         },
         {
           "name": "mineralisch",
-          "links": []
+          "links": [
+            {
+              "name": "choices.DuengungChoice.Beschränkung auf spezifische Düngemittel",
+              "link": "enabling"
+            }
+          ]
         },
         {
           "name": "organisch und mineralisch",
-          "links": []
+          "links": [
+            {
+              "name": "choices.DuengungChoice.Beschränkung auf spezifische Düngemittel",
+              "link": "enabling"
+            }
+          ]
         },
         {
           "name": "bitte um Unterstützung",
-          "links": []
+          "links": [
+            {
+              "name": "choices.DuengungChoice.Beschränkung auf spezifische Düngemittel",
+              "link": "enabling"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "name": "choices.DuengungChoice.Beschränkung auf spezifische Düngemittel",
+          "link": "enabling"
         }
       ]
     },
     {
       "name": "PflanzenschutzChoice",
+      "listName": "Pflanzenschutz",
       "children": [
         {
           "name": "keine Angabe / ohne Einschränkung",
@@ -1254,88 +1605,289 @@
           "name": "bitte um Unterstützung",
           "links": []
         }
-      ]
+      ],
+      "links": []
     },
     {
       "name": "GruenlandtypChoice",
+      "listName": "Grünlandtyp",
       "children": [
         {
           "name": "keine Angabe",
-          "links": []
+          "links": [
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.GL",
+              "link": "enabling"
+            }
+          ]
         },
         {
           "name": "Wiese",
-          "links": []
+          "links": [
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.GL",
+              "link": "enabling"
+            }
+          ]
         },
         {
           "name": "Weide",
-          "links": []
+          "links": [
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.GL",
+              "link": "enabling"
+            }
+          ]
         },
         {
           "name": "Wiese/Weide ",
-          "links": []
+          "links": [
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.GL",
+              "link": "enabling"
+            }
+          ]
         },
         {
           "name": "Streuobst/-wiese/-bestand",
-          "links": []
+          "links": [
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.GL",
+              "link": "enabling"
+            }
+          ]
         },
         {
           "name": "Heide",
-          "links": []
+          "links": [
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.GL",
+              "link": "enabling"
+            }
+          ]
         },
         {
           "name": "Alm",
-          "links": []
+          "links": [
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.GL",
+              "link": "enabling"
+            }
+          ]
         },
         {
           "name": "Hutung",
-          "links": []
+          "links": [
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.GL",
+              "link": "enabling"
+            }
+          ]
         },
         {
           "name": "Feuchtgrünland",
-          "links": []
+          "links": [
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.GL",
+              "link": "enabling"
+            }
+          ]
         },
         {
           "name": "Magerrasen",
-          "links": []
+          "links": [
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.GL",
+              "link": "enabling"
+            }
+          ]
         },
         {
           "name": "bitte um Unterstützung",
-          "links": []
+          "links": [
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.GL",
+              "link": "enabling"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "name": "choices.ZieleinheitChoice.ha",
+          "link": "enabling"
+        },
+        {
+          "name": "choices.ZielflaecheChoice.GL",
+          "link": "enabling"
         }
       ]
     },
     {
       "name": "GruenlandBewirtschaftungsVorgabenChoice",
+      "listName": "Grünlandbewirtschaftungsvorgaben",
       "children": [
         {
           "name": "keine Angabe",
-          "links": []
+          "links": [
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.GL",
+              "link": "enabling"
+            }
+          ]
         },
         {
           "name": "einschürige Wiese ",
-          "links": []
+          "links": [
+            {
+              "name": "choices.GruenlandtypChoice.Wiese",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.GruenlandtypChoice.Wiese/Weide ",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.GruenlandtypChoice.Streuobst/-wiese/-bestand",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.GL",
+              "link": "enabling"
+            }
+          ]
         },
         {
           "name": "einschürige Wiese  mit darauf folgender obligater Beweidung",
-          "links": []
+          "links": [
+            {
+              "name": "choices.GruenlandtypChoice.Wiese",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.GruenlandtypChoice.Wiese/Weide ",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.GruenlandtypChoice.Streuobst/-wiese/-bestand",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.GL",
+              "link": "enabling"
+            }
+          ]
         },
         {
           "name": "kein Umbruch ",
-          "links": []
+          "links": [
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.GL",
+              "link": "enabling"
+            }
+          ]
         },
         {
           "name": "kein Walzen",
-          "links": []
+          "links": [
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.GL",
+              "link": "enabling"
+            }
+          ]
         },
         {
           "name": "bitte um Unterstützung",
-          "links": []
+          "links": [
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.GL",
+              "link": "enabling"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "name": "choices.ZieleinheitChoice.ha",
+          "link": "enabling"
+        },
+        {
+          "name": "choices.ZielflaecheChoice.GL",
+          "link": "enabling"
         }
       ]
     },
     {
       "name": "VertragslaufzeitChoice",
+      "listName": "Vertragslaufzeit",
       "children": [
         {
           "name": "keine Struktur",
@@ -1381,63 +1933,224 @@
           "name": "bitte um Unterstützung",
           "links": []
         }
-      ]
+      ],
+      "links": []
     },
     {
       "name": "StrukturartChoice",
+      "listName": "Strukturart",
       "children": [
         {
           "name": "keine Struktur",
-          "links": []
+          "links": [
+            {
+              "name": "choices.ZieleinheitChoice.Kopf/Stück ",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            }
+          ]
         },
         {
           "name": "Gehölz/Hecke",
-          "links": []
+          "links": [
+            {
+              "name": "choices.ZieleinheitChoice.Kopf/Stück ",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.Wald/Forst",
+              "link": "disabling"
+            }
+          ]
         },
         {
           "name": "Blühfläche/-streifen/Brache und andere Saumstrukturen",
-          "links": []
+          "links": [
+            {
+              "name": "choices.ZieleinheitChoice.Kopf/Stück ",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.Wald/Forst",
+              "link": "disabling"
+            }
+          ]
         },
         {
           "name": "Graben",
-          "links": []
+          "links": [
+            {
+              "name": "choices.ZieleinheitChoice.Kopf/Stück ",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            }
+          ]
         },
         {
           "name": "Vernässung",
-          "links": []
+          "links": [
+            {
+              "name": "choices.ZieleinheitChoice.Kopf/Stück ",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            }
+          ]
         },
         {
           "name": "Gewässerschutzstreifen ",
-          "links": []
+          "links": [
+            {
+              "name": "choices.ZieleinheitChoice.Kopf/Stück ",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            }
+          ]
         },
         {
           "name": "Biotop",
-          "links": []
+          "links": [
+            {
+              "name": "choices.ZieleinheitChoice.Kopf/Stück ",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            }
+          ]
         },
         {
           "name": "Streuobst/-wiese/-bestand",
-          "links": []
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.GL",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.LF",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.HFF",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.Landschaftselement/Biotop o.Ä.",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.Kopf/Stück ",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            }
+          ]
         },
         {
           "name": "Steinmauer, Lesesteinhaufen",
-          "links": []
+          "links": [
+            {
+              "name": "choices.ZieleinheitChoice.Kopf/Stück ",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            }
+          ]
         },
         {
           "name": "Trockenrasen, Heide etc.",
-          "links": []
+          "links": [
+            {
+              "name": "choices.ZielflaecheChoice.GL",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.LF",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.HFF",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZielflaecheChoice.Landschaftselement/Biotop o.Ä.",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.Kopf/Stück ",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            }
+          ]
         },
         {
           "name": "Strukturelemente nicht definiert \"",
-          "links": []
+          "links": [
+            {
+              "name": "choices.ZieleinheitChoice.Kopf/Stück ",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            }
+          ]
         },
         {
           "name": "bitte um Unterstützung",
-          "links": []
+          "links": [
+            {
+              "name": "choices.ZieleinheitChoice.Kopf/Stück ",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "name": "choices.ZieleinheitChoice.Kopf/Stück ",
+          "link": "enabling"
+        },
+        {
+          "name": "choices.ZieleinheitChoice.ha",
+          "link": "enabling"
         }
       ]
     },
     {
       "name": "LagetreueChoice",
+      "listName": "Lagetreue der Maßnahme",
       "children": [
         {
           "name": "jährlich variabel",
@@ -1451,10 +2164,12 @@
           "name": "bitte um Unterstützung",
           "links": []
         }
-      ]
+      ],
+      "links": []
     },
     {
       "name": "TechnischeAnforderungenChoice",
+      "listName": "Technische Anforderungen",
       "children": [
         {
           "name": "ohne",
@@ -1771,10 +2486,12 @@
           "name": "bitte um Unterstützung",
           "links": []
         }
-      ]
+      ],
+      "links": []
     },
     {
       "name": "PflanzenartOderAnzahlArtenChoice",
+      "listName": "Pflanzenart oder der Anzahl von Arten, die angebaut/gesät werden müssen",
       "children": [
         {
           "name": "keine/ohne",
@@ -2185,10 +2902,12 @@
           "name": "bitte um Unterstützung",
           "links": []
         }
-      ]
+      ],
+      "links": []
     },
     {
       "name": "VorgabeArtMischungSaatgutChoice",
+      "listName": "Vorgaben an die Art/Mischung des Saatgutes",
       "children": [
         {
           "name": "keine/ohne",
@@ -2286,10 +3005,12 @@
           "name": "bitte um Unterstützung",
           "links": []
         }
-      ]
+      ],
+      "links": []
     },
     {
       "name": "VerwendungBestimmterTierartChoice",
+      "listName": "Verwendung einer bestimmten Tierart",
       "children": [
         {
           "name": "keine/ohne",
@@ -2340,14 +3061,21 @@
           "name": "bitte um Unterstützung",
           "links": []
         }
-      ]
+      ],
+      "links": []
     },
     {
       "name": "AusschlussChoice",
+      "listName": "Ausschluss von:",
       "children": [
         {
           "name": "keine/ohne",
-          "links": []
+          "links": [
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            }
+          ]
         },
         {
           "name": "Silage ",
@@ -2362,6 +3090,10 @@
             },
             {
               "name": "choices.ZielflaecheChoice.HFF",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.ha",
               "link": "enabling"
             },
             {
@@ -2390,6 +3122,10 @@
               "link": "enabling"
             },
             {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            },
+            {
               "name": "choices.KategorieChoice.Förderung bestimmter Rassen / Sorten / Kulturen",
               "link": "disabling"
             }
@@ -2411,6 +3147,10 @@
               "link": "enabling"
             },
             {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            },
+            {
               "name": "choices.KategorieChoice.Anbau Zwischenfrucht/Untersaat",
               "link": "disabling"
             }
@@ -2418,12 +3158,24 @@
         },
         {
           "name": "bitte um Unterstützung",
-          "links": []
+          "links": [
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "name": "choices.ZieleinheitChoice.ha",
+          "link": "enabling"
         }
       ]
     },
     {
       "name": "AusschlussKonkretisierungChoice",
+      "listName": "Ausschluss - Konkretisierung",
       "children": [
         {
           "name": "keine/ohne",
@@ -2469,60 +3221,414 @@
           "name": "bitte um Unterstützung",
           "links": []
         }
-      ]
+      ],
+      "links": []
     },
     {
       "name": "PflegeartChoice",
+      "listName": "Pflegeart",
       "children": [
         {
           "name": "Neuanlage zu Beginn der Verpflichtung",
-          "links": []
+          "links": [
+            {
+              "name": "choices.KategorieChoice.Anlage/Pflege Struktur",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Extensivierung",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Flächenstilllegung/Brache",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Nutzungsumwandlung",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.Kopf/Stück ",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.StrukturartChoice.keine Struktur",
+              "link": "disabling"
+            }
+          ]
         },
         {
           "name": "Pflege im Verpflichtungszeitraum",
-          "links": []
+          "links": [
+            {
+              "name": "choices.KategorieChoice.Anlage/Pflege Struktur",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Extensivierung",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Flächenstilllegung/Brache",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Nutzungsumwandlung",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.Kopf/Stück ",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.StrukturartChoice.keine Struktur",
+              "link": "disabling"
+            }
+          ]
         },
         {
           "name": "regelmäßige Neuanlage im Verpflichtungszeitraum ",
-          "links": []
+          "links": [
+            {
+              "name": "choices.KategorieChoice.Anlage/Pflege Struktur",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Extensivierung",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Flächenstilllegung/Brache",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Nutzungsumwandlung",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.Kopf/Stück ",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.StrukturartChoice.keine Struktur",
+              "link": "disabling"
+            }
+          ]
         },
         {
           "name": "bitte um Unterstützung",
-          "links": []
+          "links": [
+            {
+              "name": "choices.KategorieChoice.Anlage/Pflege Struktur",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Extensivierung",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Flächenstilllegung/Brache",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Nutzungsumwandlung",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.Kopf/Stück ",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.StrukturartChoice.keine Struktur",
+              "link": "disabling"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "name": "choices.KategorieChoice.Anlage/Pflege Struktur",
+          "link": "enabling"
+        },
+        {
+          "name": "choices.KategorieChoice.Extensivierung",
+          "link": "enabling"
+        },
+        {
+          "name": "choices.KategorieChoice.Flächenstilllegung/Brache",
+          "link": "enabling"
+        },
+        {
+          "name": "choices.KategorieChoice.Nutzungsumwandlung",
+          "link": "enabling"
+        },
+        {
+          "name": "choices.ZieleinheitChoice.Kopf/Stück ",
+          "link": "enabling"
+        },
+        {
+          "name": "choices.ZieleinheitChoice.ha",
+          "link": "enabling"
+        },
+        {
+          "name": "choices.StrukturartChoice.keine Struktur",
+          "link": "disabling"
         }
       ]
     },
     {
       "name": "PflegeHaeufigkeitChoice",
+      "listName": "Pflege-Häufigkeit",
       "children": [
         {
           "name": "keine Pflege",
-          "links": []
+          "links": [
+            {
+              "name": "choices.KategorieChoice.Anlage/Pflege Struktur",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Extensivierung",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Flächenstilllegung/Brache",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Nutzungsumwandlung",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.Kopf/Stück ",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.StrukturartChoice.keine Struktur",
+              "link": "disabling"
+            }
+          ]
         },
         {
           "name": "einmalige Pflege bestehender Strukturen",
-          "links": []
+          "links": [
+            {
+              "name": "choices.KategorieChoice.Anlage/Pflege Struktur",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Extensivierung",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Flächenstilllegung/Brache",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Nutzungsumwandlung",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.Kopf/Stück ",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.StrukturartChoice.keine Struktur",
+              "link": "disabling"
+            }
+          ]
         },
         {
           "name": "jährliche Pflege bestehender Strukturen",
-          "links": []
+          "links": [
+            {
+              "name": "choices.KategorieChoice.Anlage/Pflege Struktur",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Extensivierung",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Flächenstilllegung/Brache",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Nutzungsumwandlung",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.Kopf/Stück ",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.StrukturartChoice.keine Struktur",
+              "link": "disabling"
+            }
+          ]
         },
         {
           "name": "zeitlich und räumliche Staffelung",
-          "links": []
+          "links": [
+            {
+              "name": "choices.KategorieChoice.Anlage/Pflege Struktur",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Extensivierung",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Flächenstilllegung/Brache",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Nutzungsumwandlung",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.Kopf/Stück ",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.StrukturartChoice.keine Struktur",
+              "link": "disabling"
+            }
+          ]
         },
         {
           "name": "Pflegerhytmus nicht definiert",
-          "links": []
+          "links": [
+            {
+              "name": "choices.KategorieChoice.Anlage/Pflege Struktur",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Extensivierung",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Flächenstilllegung/Brache",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Nutzungsumwandlung",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.Kopf/Stück ",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.StrukturartChoice.keine Struktur",
+              "link": "disabling"
+            }
+          ]
         },
         {
           "name": "bitte um Unterstützung",
-          "links": []
+          "links": [
+            {
+              "name": "choices.KategorieChoice.Anlage/Pflege Struktur",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Extensivierung",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Flächenstilllegung/Brache",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.KategorieChoice.Nutzungsumwandlung",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.Kopf/Stück ",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.ZieleinheitChoice.ha",
+              "link": "enabling"
+            },
+            {
+              "name": "choices.StrukturartChoice.keine Struktur",
+              "link": "disabling"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "name": "choices.KategorieChoice.Anlage/Pflege Struktur",
+          "link": "enabling"
+        },
+        {
+          "name": "choices.KategorieChoice.Extensivierung",
+          "link": "enabling"
+        },
+        {
+          "name": "choices.KategorieChoice.Flächenstilllegung/Brache",
+          "link": "enabling"
+        },
+        {
+          "name": "choices.KategorieChoice.Nutzungsumwandlung",
+          "link": "enabling"
+        },
+        {
+          "name": "choices.ZieleinheitChoice.Kopf/Stück ",
+          "link": "enabling"
+        },
+        {
+          "name": "choices.ZieleinheitChoice.ha",
+          "link": "enabling"
+        },
+        {
+          "name": "choices.StrukturartChoice.keine Struktur",
+          "link": "disabling"
         }
       ]
     },
     {
       "name": "HonorierungChoice",
+      "listName": "Honorierung",
       "children": [
         {
           "name": "Differenziert nach Standort / Lagebasiert",
@@ -2564,10 +3670,12 @@
           "name": "bitte um Unterstützung",
           "links": []
         }
-      ]
+      ],
+      "links": []
     },
     {
       "name": "YesOrNoChoice",
+      "listName": "Herkunft GAK",
       "children": [
         {
           "name": "Ja",
@@ -2581,10 +3689,50 @@
           "name": "bitte um Unterstützung",
           "links": []
         }
-      ]
+      ],
+      "links": []
+    },
+    {
+      "name": "YesOrNoChoice",
+      "listName": "Herkunft ELER",
+      "children": [
+        {
+          "name": "Ja",
+          "links": []
+        },
+        {
+          "name": "Nein",
+          "links": []
+        },
+        {
+          "name": "bitte um Unterstützung",
+          "links": []
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "YesOrNoChoice",
+      "listName": "Herkunft Landesmittel",
+      "children": [
+        {
+          "name": "Ja",
+          "links": []
+        },
+        {
+          "name": "Nein",
+          "links": []
+        },
+        {
+          "name": "bitte um Unterstützung",
+          "links": []
+        }
+      ],
+      "links": []
     },
     {
       "name": "AbfolgeStaffelungChoice",
+      "listName": "Abfolge/Staffelung",
       "children": [
         {
           "name": "keine/ohne",
@@ -2602,10 +3750,12 @@
           "name": "bitte um Unterstützung",
           "links": []
         }
-      ]
+      ],
+      "links": []
     },
     {
       "name": "LetzterStatus",
+      "listName": "Status",
       "children": [
         {
           "name": "in Bearbeitung",
@@ -2619,7 +3769,8 @@
           "name": "abgeschlossen",
           "links": []
         }
-      ]
+      ],
+      "links": []
     }
   ]
 }

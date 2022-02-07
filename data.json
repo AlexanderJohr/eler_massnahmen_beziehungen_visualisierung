@@ -953,14 +953,6 @@
           "links": []
         },
         {
-          "name": "<=",
-          "links": []
-        },
-        {
-          "name": ">=",
-          "links": []
-        },
-        {
           "name": "bitte um Unterstützung",
           "links": []
         }
@@ -2928,6 +2920,14 @@
             {
               "name": "choices.PflanzenartOderAnzahlArtenChoice.Blühmischung mit Optionen vorgegeben ",
               "link": "disabling"
+            },
+            {
+              "name": "choices.PflanzenartOderAnzahlArtenChoice.bitte um Unterstützung",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.PflanzenartOderAnzahlArtenChoice.keine/ohne",
+              "link": "disabling"
             }
           ]
         },
@@ -2941,6 +2941,14 @@
             {
               "name": "choices.PflanzenartOderAnzahlArtenChoice.Blühmischung mit Optionen vorgegeben ",
               "link": "enabling"
+            },
+            {
+              "name": "choices.PflanzenartOderAnzahlArtenChoice.bitte um Unterstützung",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.PflanzenartOderAnzahlArtenChoice.keine/ohne",
+              "link": "disabling"
             }
           ]
         },
@@ -2954,6 +2962,14 @@
             {
               "name": "choices.PflanzenartOderAnzahlArtenChoice.Blühmischung mit Optionen vorgegeben ",
               "link": "enabling"
+            },
+            {
+              "name": "choices.PflanzenartOderAnzahlArtenChoice.bitte um Unterstützung",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.PflanzenartOderAnzahlArtenChoice.keine/ohne",
+              "link": "disabling"
             }
           ]
         },
@@ -2966,6 +2982,14 @@
             },
             {
               "name": "choices.PflanzenartOderAnzahlArtenChoice.Nachweis von Kennarten",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.PflanzenartOderAnzahlArtenChoice.bitte um Unterstützung",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.PflanzenartOderAnzahlArtenChoice.keine/ohne",
               "link": "disabling"
             }
           ]
@@ -2980,6 +3004,14 @@
             {
               "name": "choices.PflanzenartOderAnzahlArtenChoice.Nachweis von Kennarten",
               "link": "disabling"
+            },
+            {
+              "name": "choices.PflanzenartOderAnzahlArtenChoice.bitte um Unterstützung",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.PflanzenartOderAnzahlArtenChoice.keine/ohne",
+              "link": "disabling"
             }
           ]
         },
@@ -2989,6 +3021,14 @@
             {
               "name": "choices.PflanzenartOderAnzahlArtenChoice.Leguminosen",
               "link": "enabling"
+            },
+            {
+              "name": "choices.PflanzenartOderAnzahlArtenChoice.bitte um Unterstützung",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.PflanzenartOderAnzahlArtenChoice.keine/ohne",
+              "link": "disabling"
             }
           ]
         },
@@ -2998,6 +3038,14 @@
             {
               "name": "choices.PflanzenartOderAnzahlArtenChoice.Zwischenfrucht",
               "link": "enabling"
+            },
+            {
+              "name": "choices.PflanzenartOderAnzahlArtenChoice.bitte um Unterstützung",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.PflanzenartOderAnzahlArtenChoice.keine/ohne",
+              "link": "disabling"
             }
           ]
         },
@@ -3007,15 +3055,41 @@
             {
               "name": "choices.PflanzenartOderAnzahlArtenChoice.Zwischenfrucht",
               "link": "enabling"
+            },
+            {
+              "name": "choices.PflanzenartOderAnzahlArtenChoice.bitte um Unterstützung",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.PflanzenartOderAnzahlArtenChoice.keine/ohne",
+              "link": "disabling"
             }
           ]
         },
         {
           "name": "bitte um Unterstützung",
-          "links": []
+          "links": [
+            {
+              "name": "choices.PflanzenartOderAnzahlArtenChoice.bitte um Unterstützung",
+              "link": "disabling"
+            },
+            {
+              "name": "choices.PflanzenartOderAnzahlArtenChoice.keine/ohne",
+              "link": "disabling"
+            }
+          ]
         }
       ],
-      "links": []
+      "links": [
+        {
+          "name": "choices.PflanzenartOderAnzahlArtenChoice.bitte um Unterstützung",
+          "link": "disabling"
+        },
+        {
+          "name": "choices.PflanzenartOderAnzahlArtenChoice.keine/ohne",
+          "link": "disabling"
+        }
+      ]
     },
     {
       "name": "VerwendungBestimmterTierartChoice",
